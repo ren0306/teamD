@@ -110,6 +110,8 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\..\自作ゲーム\自作ゲーム\ObjTitle.cpp" />
+    <ClCompile Include="..\..\..\自作ゲーム\自作ゲーム\SceneTile.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
     <ClCompile Include="GameL\DirectXDevice.cpp" />
     <ClCompile Include="GameL\Draw2DTex_Source.cpp" />
@@ -124,11 +126,10 @@
     <ClCompile Include="GameL\UserData.cpp" />
     <ClCompile Include="GameL\WICTextureLoader.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
-    <ClCompile Include="ObjTilte.cpp" />
-    <ClCompile Include="SceneTitle.cpp" />
-    <ClCompile Include="teamD.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\..\自作ゲーム\自作ゲーム\ObjTitle.h" />
+    <ClInclude Include="..\..\..\自作ゲーム\自作ゲーム\SceneTitle.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
     <ClInclude Include="GameL\DirectXDevice.h" />
@@ -144,7 +145,6 @@
     <ClInclude Include="GameL\WICTextureLoader.h" />
     <ClInclude Include="GameL\WinInputs.h" />
     <ClInclude Include="main.h" />
-    <ClInclude Include="SceneTitle.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="GameL\DirectXTex.inl" />
