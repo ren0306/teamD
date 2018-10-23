@@ -1,144 +1,114 @@
-//使用するヘッダー
-#include "math.h" //数学計算ヘッダー
+//使用するヘッダーファイル
 #include "GameL\DrawTexture.h"
+#include "GameL\HitBoxManager.h"
+#include "GameL\Audio.h"
+#include "GameHead.h"
+#include "CObjBullet.h"
+#include "UtilityModule.h"
+
 //使用するネームスペース
 using namespace GameL;
 
-//---UnitVec関数
-//引数1　float* vx	:ベクトルのX成分のポインタ
-//引数2　float* vy	:ベクトルのY成分のポインタ
-//戻り値 bool		:true=計算成功　flase=計算失敗
-//内容
-//引数のベクトルを正規化しその値をvx,vyに変更します。
-bool UnitVec(float* vx, float* vy)
+//コンストラクタ
+CObjBullet::CObjBullet(float x, float y)
 {
-	//ベクトルの長さを求める(三平方の定理)
-	float r = 0.0f;
-	r = (*vx) * (*vx) + (*vy) * (*vy);
-	r = sqrt(r);//ｒのルートを求める
-
-	//長さが0かどうか調べる
-	if (r == 0.0f)
-	{
-		;//0なら計算失敗
-		return false;
-	}
-	else
-	{
-		//正規化を行い、vxとvyの参照先の値を変更
-		(*vx) = 1.0f / r* (*vx);
-		(*vy) = 1.0f / r* (*vy);
-	}
-
-	//計算成功
-	return true;
+	m_x = x;
+	m_y = y;
 }
 
-
-
-//---CheckWindow関数
-//引数1　float pos_x	:領域外かどうか調べるx位置
-//引数2　float pos_y	:領域外かどうか調べるy位置
-//引数3　float window_x	:領域のtop位置
-//引数4　float window_y	:領域のleft位置
-//引数5　float window_w	:領域のright位置
-//引数6　float window_h	:領域のbottom位置
-//戻り値 bool		:true=領域内　false=領域外
-//内容
-//領域内かどうか調べる位置pos_(x,y)がwindow_(xywh)の内か外がを調べる
-bool CheckWindow(float pos_x, float pos_y,
-	float window_x, float window_y, float window_w, float window_h)
+//イニシャライズ
+void CObjBullet::Init()
 {
-	//領域チェック
-	if (pos_x < window_x)
-	{
-		return false;	//領域外
-	}
-	if (pos_x > window_w)
-	{
-		return false;	//領域外
-	}
-	if (pos_y < window_y)
-	{
-		return false;	//領域外
-	}
-	if (pos_y > window_h)
-	{
-		return false;	//領域外
-	}
+	m_eff.m_top = 32;
+	m_eff.m_left = 0;
+	m_eff.m_right = 32;
+	m_eff.m_bottom = 64;
+	m_ani = 0;
+	m_ani_time = 0;
+	m_del = false;
+	m_vx = 0.0f;
 
-	return true;		//領域内
+	//当たり判定用HitBoxを作成
+	Hits::SetHitBox(this, m_x, m_y, 32, 32, ELEMENT_PLAYER, OBJ_BULLET, 1);
 }
 
-
-
-//---GetAtan2Angle関数
-//引数1　float w	:幅
-//引数2　float h	:高さ
-//戻り値			:角度(0°～　360°)
-//内容
-//高さと幅から直角三角形があると仮定しその角度を求める。
-float GetAtan2Angle(float w, float h)
+//アクション
+void CObjBullet::Action()
 {
-	//atan2で角度を求める
-	float r = atan2(h, w)*180.0f / 3.14f;
+	//Resourcesの描画物のRECT
+	m_eff = GetBulletEffec(&m_ani, &m_ani_time, m_del, 2);
 
-	//-180°～-0°を　180°　～360°に変換
-	if (r < 0)
+	//弾丸消滅処理　-----
+	if (m_del == true)
 	{
-		r = 360 - fabs(r);
-	}
-
-	return r;
-}
-
-
-
-//---GetBulletEffec関数
-//引数1　int*	ani;	  着弾アニメーション
-//引数2　int*	ani_time; 着弾アニメーション間隔タイム
-//引数3　int*	del;	　削除チェック(true=着弾エフェクト false=通常の弾丸)
-//引数4　int*	timing	　間隔区間
-//戻り値 RECT_F eff;	  描画するRECT
-//delで弾丸のRECTや着弾effectのRECT(アニメーションのRECT)を返す
-RECT_F GetBulletEffec(int* ani, int* ani_time, bool del, int timing)
-{
-	//返すRECT情報
-	RECT_F rect;
-
-	//フラグで通常弾丸か着弾アニメーション処理分岐
-	if (del == true)
-	{
-		//着弾アニメーション
-		//リソース着弾アニメーション位置
-		RECT_F ani_src[4] =
+		//着弾アニメーション終了で本当にオブジェクトの破棄
+		if (m_ani == 4)
 		{
-			{ 32,  0, 32, 64 },
-			{ 32, 32, 64, 64 },
-			{ 32, 64, 96, 64 },
-			{ 32, 96,128, 64 },
-		};
-
-		//アニメーションのコマ間隔
-		if (*ani_time > timing)
-		{
-			*ani += 1;		//アニメーションのコマを１つ進める
-			*ani_time = 0;
-		}
-		else
-		{
-			*ani_time += 1;
+			this->SetStatus(false);
+			Hits::DeleteHitBox(this);
 		}
 
-		rect = ani_src[*ani];//アニメーションのRECT配列からm_ani番目のRECT情報を渡す
-	}
-	else
-	{
-		//弾丸はアニメーション無し
-		//リソース弾丸位置
-		RECT_F bullet = { 0.0f, 96.0f,126.0f,32.0f };
-		rect = bullet;
+		return;//消滅処理は、ここでアクションメソッドを終了させる
 	}
 
-	return rect;
+	//弾丸実行処理　-----
+	m_vx += 1.0f;
+	m_x += m_vx;
+
+	//弾丸のHitBox更新用ポインター取得
+	CHitBox* hit = Hits::GetHitBox(this);
+	hit->SetPos(m_x, m_y);			 //HitBoxの位置を弾丸の位置に更新
+
+	//領域外に出たら弾丸を破棄する
+	bool check = CheckWindow(m_x, m_y, -32.0f, -32.0f, 800.0f, 600.0f);
+	if (check == false)
+	{
+		this->SetStatus(false);
+		Hits::DeleteHitBox(this);	//弾丸が所有するHitBoxを削除する。
+
+		return;
+	}
+
+	//当たり判定を行うオブジェクト情報郡
+	/*
+	int data_base[6] =
+	{
+		OBJ_ENEMY,
+		OBJ_ATTACK_ENEMY,
+		OBJ_SIN_ENEMY,
+		OBJ_DIFFUSION_ENEMY,
+		OBJ_HOMING_ENEMY,
+		OBJ_BOSS_ENEMY,
+	};
+
+	//オブジェクト情報郡と当たり判定を行い、当たっていれば削除
+	for (int i = 0; i < 6; i++)
+	{
+		if (hit->CheckObjNameHit(data_base[i]) != nullptr)
+		{
+			//Audio::Start(3);//着弾音を鳴らす
+
+			m_del = true;				//消滅実行
+			hit->SetInvincibility(true);//当たり判定無効
+		}
+	}
+	*/
+}
+
+//ドロー
+void CObjBullet::Draw()
+{
+	//描画カラー情報  R=RED  G=Green  B=Blue A=alpha(透過情報)
+	float  c[4] = { 1.0f,1.0f,1.0f,1.0f };
+
+	RECT_F dst; //描画先表示位置
+
+	//表示位置の設定
+	dst.m_top = 0.0f + m_y;
+	dst.m_left = 0.0f + m_x;
+	dst.m_right = 32.0f + m_x;
+	dst.m_bottom = 32.0f + m_y;
+
+	//0番目に登録したグラフィックをsrc・dst・cの情報を元に描画
+	Draw::Draw(0, &m_eff, &dst, c, 0.0f);
 }

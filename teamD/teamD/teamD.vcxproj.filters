@@ -19,7 +19,7 @@
     <Filter Include="ソース ファイル\ゲームメイン">
       <UniqueIdentifier>{ec1a5136-7251-4d90-9183-2c4e1a04f162}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\Shooting">
+    <Filter Include="ソース ファイル\シューティング">
       <UniqueIdentifier>{b2fc1464-9703-4d04-900e-cd9b45a48ad8}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
@@ -76,16 +76,19 @@
       <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClCompile>
     <ClCompile Include="ObjHero.cpp">
-      <Filter>ソース ファイル\Shooting</Filter>
-    </ClCompile>
-    <ClCompile Include="CObjBullet.cpp">
-      <Filter>ソース ファイル\Shooting</Filter>
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="UtilityModule.cpp">
-      <Filter>ソース ファイル\Shooting</Filter>
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="Game Over.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="CObjBullet.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootingMain.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -135,13 +138,13 @@
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
     <ClInclude Include="ObjHero.h">
-      <Filter>ソース ファイル\Shooting</Filter>
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="CObjBullet.h">
-      <Filter>ソース ファイル\Shooting</Filter>
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="UtilityModule.h">
-      <Filter>ソース ファイル\Shooting</Filter>
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="ObjTitle.h">
       <Filter>ソース ファイル\タイトル</Filter>
@@ -154,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="GameOver.h">
       <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootingMain.h">
+      <Filter>ソース ファイル\シューティング</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
