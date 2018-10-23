@@ -9,6 +9,7 @@ enum OBJ_NAME
 	OBJ_TITLE,
 	OBJ_HERO,
 	OBJ_BULLET,
+	OBJ_GAMEOVER,
 };
 //------------------------------------------------
 
@@ -28,6 +29,8 @@ enum HIT_ELEMENTS
 	ELEMENT_BLUE,
 	ELEMENT_BLACK,
 	ELEMENT_WHITE,
+
+
 };
 //------------------------------------------------
 
@@ -55,14 +58,16 @@ struct UserData
 #include "ObjHero.h"
 #include "CObjBullet.h"
 #include "ObjTitle.h"
+#include "GAMEOVER1.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
 #include "SceneMain.h"
 #include "SceneTitle.h"
+#include "GameOver.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneTitle
+#define SET_GAME_START CSceneGameOver
 //-----------------------------------------------

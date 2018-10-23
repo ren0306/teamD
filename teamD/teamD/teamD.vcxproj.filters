@@ -22,6 +22,9 @@
     <Filter Include="ソース ファイル\Shooting">
       <UniqueIdentifier>{b2fc1464-9703-4d04-900e-cd9b45a48ad8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバ―画面">
+      <UniqueIdentifier>{af4bf7e8-6f88-4d58-8537-01a4b137b8b1}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -85,7 +88,10 @@
       <Filter>ソース ファイル\Shooting</Filter>
     </ClCompile>
     <ClCompile Include="Game Over.cpp">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ゲームオーバ―画面</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEOVER1.cpp">
+      <Filter>ソース ファイル\ゲームオーバ―画面</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -153,7 +159,10 @@
       <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClInclude>
     <ClInclude Include="GameOver.h">
-      <Filter>ソース ファイル</Filter>
+      <Filter>ソース ファイル\ゲームオーバ―画面</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEOVER1.h">
+      <Filter>ソース ファイル\ゲームオーバ―画面</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
