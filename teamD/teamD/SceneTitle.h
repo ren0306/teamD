@@ -5,17 +5,14 @@
 //使用するネームスペース
 using namespace GameL;
 
-//シーン：ゲームメイン
+//シーン：ゲームタイトル
 class CSceneTitle :public CScene
 {
-public:
-	CSceneTitle();
-	~CSceneTitle();
-	void InitScene();//ゲームメインの初期化メソッド
-	void Scene();	//ゲームメインの実行中メソッド
-private:
-	int m_time;
-	int Hero = 1;
+	public:
+		CSceneTitle();
+		~CSceneTitle();
+		void InitScene();//ゲームタイトルの初期化メソッド
+		void Scene();	 //ゲームタイトルの実行中メソッド
+	private:
 
-
-}; 
+};
