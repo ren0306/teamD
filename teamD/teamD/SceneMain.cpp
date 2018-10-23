@@ -5,6 +5,7 @@
 //GameLで使用するヘッダー
 #include "GameL\SceneObjManager.h"
 #include "GameL\DrawTexture.h"
+#include "GameL\DrawFont.h"
 
 //使用するネームスペース
 using namespace GameL;
@@ -31,6 +32,9 @@ CSceneMain::~CSceneMain()
 //ゲームメイン初期化メソッド
 void CSceneMain::InitScene()
 {
+	CObjMain* p = new CObjMain();
+	Objs::InsertObj(p, OBJ_MAIN, 21);
+
 }
 
 

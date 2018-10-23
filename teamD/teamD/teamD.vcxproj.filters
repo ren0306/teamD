@@ -87,6 +87,9 @@
     <ClCompile Include="Game Over.cpp">
       <Filter>ソース ファイル</Filter>
     </ClCompile>
+    <ClCompile Include="ObjMain.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -154,6 +157,9 @@
     </ClInclude>
     <ClInclude Include="GameOver.h">
       <Filter>ソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMain.h">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
