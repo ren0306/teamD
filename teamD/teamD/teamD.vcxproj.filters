@@ -13,6 +13,12 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="ソース ファイル\タイトル">
+      <UniqueIdentifier>{14639cf0-32ff-4c71-a564-51d49e3c45cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームメイン">
+      <UniqueIdentifier>{ec1a5136-7251-4d90-9183-2c4e1a04f162}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -56,6 +62,15 @@
     </ClCompile>
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjTitle.cpp">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneTitle.cpp">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMain.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -103,6 +118,15 @@
     </ClInclude>
     <ClInclude Include="GameHead.h">
       <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjTitle.h">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneTitle.h">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMain.h">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
