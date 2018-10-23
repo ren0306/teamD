@@ -127,7 +127,9 @@
     <ClCompile Include="GameL\WICTextureLoader.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="ObjHero.cpp" />
-    <ClCompile Include="UtilityModule.cpp" />
+    <ClCompile Include="UtilityModule.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
@@ -154,7 +156,9 @@
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ObjHero.h" />
-    <ClInclude Include="UtilityModule.h" />
+    <ClInclude Include="UtilityModule.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="GameL\DirectXTex.inl" />
