@@ -10,6 +10,7 @@ enum OBJ_NAME
 	OBJ_HERO,
 	OBJ_BULLET,
 	OBJ_GAMEOVER,
+	OBJ_MAIN,
 };
 //------------------------------------------------
 
@@ -58,6 +59,7 @@ struct UserData
 #include "ObjHero.h"
 #include "CObjBullet.h"
 #include "ObjTitle.h"
+#include "ObjMain.h"
 #include "GAMEOVER1.h"
 //------------------------------------------------
 
