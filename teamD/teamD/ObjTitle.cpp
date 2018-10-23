@@ -51,6 +51,4 @@ void CObjTitle::Draw()
 	Font::StrDraw(str, 20, 20, 12,c);
 	Font::StrDraw(L"ƒQ[ƒ€‚ğn‚ß‚é", 400, 400, 32, c);
 
-	if (m_mou_r == true)
-		Font::StrDraw(L"R=")
 }
