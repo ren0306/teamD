@@ -5,11 +5,11 @@
 using namespace GameL;
 
 //オブジェクト：タイトル
-class CObjGAMEOVER :public CObj
+class CObjGAMEOVER2 :public CObj
 {
-	public :
-		CObjGAMEOVER() {};
-		~CObjGAMEOVER() {};
+public:
+	CObjGAMEOVER2() {};
+	~CObjGAMEOVER2() {};
 		void Init();	//イニシャライズ
 		void Action();	//アクション
 		void Draw();	//ドロー
@@ -18,4 +18,4 @@ class CObjGAMEOVER :public CObj
 		float m_mou_y;
 		bool m_mou_r;
 		bool m_mou_l;
-};
+}; 

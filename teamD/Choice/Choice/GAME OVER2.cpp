@@ -3,19 +3,19 @@
 #include "GameL\WinInputs.h"
 
 #include "GameHead.h"
-#include "GAMEOVER1.h"
+#include "GAME OVER2.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //イニシャライズ
-void CObjGAMEOVER::Init()
+void CObjGAMEOVER2::Init()
 {
 
 }
 
 //アクション
-void CObjGAMEOVER::Action()
+void CObjGAMEOVER2::Action()
 {
 	//マウスの位置を取得
 	m_mou_x = (float)Input::GetPosX();
@@ -29,20 +29,22 @@ void CObjGAMEOVER::Action()
 		//マウスのボタンが押されたらメインに遷移
 		if (m_mou_r == true || m_mou_l == true)
 		{
-			Scene::SetScene(new CSceneMain());
+			Scene::SetScene(new CSceneTitle());
 		}
 	}
 }
 
 //ドロー
-void CObjGAMEOVER::Draw()
+void CObjGAMEOVER2::Draw()
 {
 	float c[4] = { 1.0f,0.0f,0.0f,1.0f };
 	Font::StrDraw(L"GAME OVER", 270, 50, 50, c);
 	float m[4] = { 0.5f,0.5f,0.5f,1.0f };
 
-	Font::StrDraw(L"空腹で倒れた", 300, 400, 30, m);
+	Font::StrDraw(L"敵に倒された", 300, 400, 30, m);
 	float s[4] = { 1.0f,1.0f,1.0f,1.0f };
-	Font::StrDraw(L"タイトル画面へ", 280, 500, 30,s);
+	Font::StrDraw(L"タイトル画面へ", 280, 500, 30, s);
+
+	
 
 }

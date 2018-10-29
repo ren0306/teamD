@@ -12,6 +12,7 @@ enum OBJ_NAME
 	OBJ_GAMEOVER,
 	OBJ_MAIN,
 	OBJ_BACKGROUND,
+	OBJ_GAMEOVER2,
 };
 //------------------------------------------------
 
@@ -62,6 +63,7 @@ struct UserData
 #include "ObjTitle.h"
 #include "ObjMain.h"
 #include "GAMEOVER1.h"
+#include "GAME OVER2.h"
 #include "ObjBackGround.h"
 //------------------------------------------------
 
@@ -70,6 +72,7 @@ struct UserData
 #include "SceneTitle.h"
 #include "GameOver.h"
 #include "ShootingMain.h"
+#include "GameOver2.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------

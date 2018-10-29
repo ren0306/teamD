@@ -16,14 +16,17 @@
     <Filter Include="ソース ファイル\タイトル">
       <UniqueIdentifier>{16c0f645-267a-4c4a-bb1a-7594b14652ef}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソース ファイル\ゲームオーバー">
-      <UniqueIdentifier>{fd25106e-d3d8-48bb-b47c-89d4c00cbbe6}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソース ファイル\ゲームメイン">
       <UniqueIdentifier>{84846a55-7710-480e-bfbb-90e622db6432}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソース ファイル\シューティング">
       <UniqueIdentifier>{7616779f-9769-4162-adb1-f13ce870649d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー%28空腹%29">
+      <UniqueIdentifier>{fd25106e-d3d8-48bb-b47c-89d4c00cbbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー%28敵に倒される%29">
+      <UniqueIdentifier>{4fe3e99e-6da9-4cdd-934a-b63aaae949a7}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
@@ -73,10 +76,10 @@
       <Filter>ソース ファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="Game Over.cpp">
-      <Filter>ソース ファイル\ゲームオーバー</Filter>
+      <Filter>ソース ファイル\ゲームオーバー%28空腹%29</Filter>
     </ClCompile>
     <ClCompile Include="GAMEOVER1.cpp">
-      <Filter>ソース ファイル\ゲームオーバー</Filter>
+      <Filter>ソース ファイル\ゲームオーバー%28空腹%29</Filter>
     </ClCompile>
     <ClCompile Include="ObjHero.cpp">
       <Filter>ソース ファイル\シューティング</Filter>
@@ -101,6 +104,12 @@
     </ClCompile>
     <ClCompile Include="ObjBackGround.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver2.cpp">
+      <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME OVER2.cpp">
+      <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -153,10 +162,10 @@
       <Filter>ソース ファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="GAMEOVER1.h">
-      <Filter>ソース ファイル\ゲームオーバー</Filter>
+      <Filter>ソース ファイル\ゲームオーバー%28空腹%29</Filter>
     </ClInclude>
     <ClInclude Include="GameOver.h">
-      <Filter>ソース ファイル\ゲームオーバー</Filter>
+      <Filter>ソース ファイル\ゲームオーバー%28空腹%29</Filter>
     </ClInclude>
     <ClInclude Include="ObjHero.h">
       <Filter>ソース ファイル\シューティング</Filter>
@@ -178,6 +187,12 @@
     </ClInclude>
     <ClInclude Include="UtilityModule.h">
       <Filter>ソース ファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver2.h">
+      <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME OVER2.h">
+      <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
     </ClInclude>
     <ClInclude Include="ObjBackGround.h">
       <Filter>ソース ファイル</Filter>
