@@ -132,11 +132,13 @@
     <ClCompile Include="GAMEOVER1.cpp" />
     <ClCompile Include="ObjBackGround.cpp" />
     <ClCompile Include="GameOver2.cpp" />
+    <ClCompile Include="ObjED2.cpp" />
     <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ObjMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
+    <ClCompile Include="SceneED2.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
     <ClCompile Include="ShootingMain.cpp">
@@ -170,11 +172,13 @@
     <ClInclude Include="GameOver2.h" />
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjBackGround.h" />
+    <ClInclude Include="ObjED2.h" />
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="ObjMain.h" />
     <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneED2.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ShootingMain.h">
