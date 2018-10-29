@@ -67,6 +67,7 @@ struct UserData
 #include "SceneMain.h"
 #include "SceneTitle.h"
 #include "GameOver.h"
+#include "ShootingMain.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------

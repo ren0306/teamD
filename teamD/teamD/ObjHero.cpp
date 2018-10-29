@@ -76,7 +76,6 @@ void CObjHero::Action()
 
 	//主人公機の移動
 	//キーの入力方向にベクトルの速度を入れる
-	//テストプレイ用に1.0f→10.0fに。
 	if (Input::GetVKey(VK_RIGHT) == true)
 	{
 		m_vx += 5.0f;
