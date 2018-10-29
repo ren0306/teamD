@@ -110,81 +110,79 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\teamD\CObjBullet.cpp">
+    <ClCompile Include="CObjBullet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\teamD\Game Over.cpp">
+    <ClCompile Include="Game Over.cpp" />
+    <ClCompile Include="GameL\Audio.cpp" />
+    <ClCompile Include="GameL\DirectXDevice.cpp" />
+    <ClCompile Include="GameL\Draw2DTex_Source.cpp" />
+    <ClCompile Include="GameL\DrawFont.cpp" />
+    <ClCompile Include="GameL\DrawTexture.cpp" />
+    <ClCompile Include="GameL\GameL_Main.cpp" />
+    <ClCompile Include="GameL\HitBoxManager.cpp" />
+    <ClCompile Include="GameL\MultiThread.cpp" />
+    <ClCompile Include="GameL\SceneManager.cpp" />
+    <ClCompile Include="GameL\SceneObjManager.cpp" />
+    <ClCompile Include="GameL\SetWindow.cpp" />
+    <ClCompile Include="GameL\UserData.cpp" />
+    <ClCompile Include="GameL\WICTextureLoader.cpp" />
+    <ClCompile Include="GameL\WinInputs.cpp" />
+    <ClCompile Include="GAMEOVER1.cpp" />
+    <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\teamD\GameL\Audio.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\DirectXDevice.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\Draw2DTex_Source.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\DrawFont.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\DrawTexture.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\GameL_Main.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\HitBoxManager.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\MultiThread.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\SceneManager.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\SceneObjManager.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\SetWindow.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\UserData.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\WICTextureLoader.cpp" />
-    <ClCompile Include="..\..\teamD\GameL\WinInputs.cpp" />
-    <ClCompile Include="..\..\teamD\ObjHero.cpp">
+    <ClCompile Include="ObjMain.cpp" />
+    <ClCompile Include="ObjTitle.cpp" />
+    <ClCompile Include="SceneMain.cpp" />
+    <ClCompile Include="SceneTitle.cpp" />
+    <ClCompile Include="ShootingMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\teamD\ObjMain.cpp" />
-    <ClCompile Include="..\..\teamD\ObjTitle.cpp" />
-    <ClCompile Include="..\..\teamD\SceneMain.cpp" />
-    <ClCompile Include="..\..\teamD\SceneTitle.cpp" />
-    <ClCompile Include="..\..\teamD\ShootingMain.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="..\..\teamD\UtilityModule.cpp">
+    <ClCompile Include="UtilityModule.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="..\..\teamD\CObjBullet.h">
+    <ClInclude Include="CObjBullet.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\..\teamD\GameHead.h" />
-    <ClInclude Include="..\..\teamD\GameL\Audio.h" />
-    <ClInclude Include="..\..\teamD\GameL\DirectXDevice.h" />
-    <ClInclude Include="..\..\teamD\GameL\DirectXTex.h" />
-    <ClInclude Include="..\..\teamD\GameL\DrawFont.h" />
-    <ClInclude Include="..\..\teamD\GameL\DrawTexture.h" />
-    <ClInclude Include="..\..\teamD\GameL\HitBoxManager.h" />
-    <ClInclude Include="..\..\teamD\GameL\MultiThread.h" />
-    <ClInclude Include="..\..\teamD\GameL\SceneManager.h" />
-    <ClInclude Include="..\..\teamD\GameL\SceneObjManager.h" />
-    <ClInclude Include="..\..\teamD\GameL\SetWindow.h" />
-    <ClInclude Include="..\..\teamD\GameL\UserData.h" />
-    <ClInclude Include="..\..\teamD\GameL\WICTextureLoader.h" />
-    <ClInclude Include="..\..\teamD\GameL\WinInputs.h" />
-    <ClInclude Include="..\..\teamD\GameOver.h">
+    <ClInclude Include="GameHead.h" />
+    <ClInclude Include="GameL\Audio.h" />
+    <ClInclude Include="GameL\DirectXDevice.h" />
+    <ClInclude Include="GameL\DirectXTex.h" />
+    <ClInclude Include="GameL\DrawFont.h" />
+    <ClInclude Include="GameL\DrawTexture.h" />
+    <ClInclude Include="GameL\HitBoxManager.h" />
+    <ClInclude Include="GameL\MultiThread.h" />
+    <ClInclude Include="GameL\SceneManager.h" />
+    <ClInclude Include="GameL\SceneObjManager.h" />
+    <ClInclude Include="GameL\SetWindow.h" />
+    <ClInclude Include="GameL\UserData.h" />
+    <ClInclude Include="GameL\WICTextureLoader.h" />
+    <ClInclude Include="GameL\WinInputs.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GAMEOVER1.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\..\teamD\main.h" />
-    <ClInclude Include="..\..\teamD\ObjHero.h">
+    <ClInclude Include="ObjMain.h" />
+    <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneMain.h" />
+    <ClInclude Include="SceneTitle.h" />
+    <ClInclude Include="ShootingMain.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="..\..\teamD\ObjMain.h" />
-    <ClInclude Include="..\..\teamD\ObjTitle.h" />
-    <ClInclude Include="..\..\teamD\SceneMain.h" />
-    <ClInclude Include="..\..\teamD\SceneTitle.h" />
-    <ClInclude Include="..\..\teamD\ShootingMain.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
-    <ClInclude Include="..\..\teamD\UtilityModule.h">
+    <ClInclude Include="UtilityModule.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="..\..\teamD\GameL\DirectXTex.inl" />
+    <None Include="GameL\DirectXTex.inl" />
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\teamD\GameL\DirectXTex.lib" />
+    <Library Include="GameL\DirectXTex.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
