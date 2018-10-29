@@ -28,6 +28,12 @@
     <Filter Include="ソース ファイル\ゲームオーバー%28敵に倒される%29">
       <UniqueIdentifier>{4fe3e99e-6da9-4cdd-934a-b63aaae949a7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\ED1">
+      <UniqueIdentifier>{6d71262d-7866-4501-a695-6d721f1f320a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ED3">
+      <UniqueIdentifier>{83fb2ed0-0d46-463f-94b5-9be313c52567}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -107,6 +113,18 @@
     </ClCompile>
     <ClCompile Include="GAME OVER2.cpp">
       <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneED1.cpp">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED1.cpp">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneED3.cpp">
+      <Filter>ソース ファイル\ED3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED3.cpp">
+      <Filter>ソース ファイル\ED3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -190,6 +208,18 @@
     </ClInclude>
     <ClInclude Include="GAME OVER2.h">
       <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED1.h">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED1.h">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED3.h">
+      <Filter>ソース ファイル\ED3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED3.h">
+      <Filter>ソース ファイル\ED3</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

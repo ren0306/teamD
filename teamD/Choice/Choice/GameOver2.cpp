@@ -34,7 +34,7 @@ void CSceneGameOver2::InitScene()
 
 	//ゲームオーバーオブジェクト作成
 	CObjGAMEOVER2* obj = new CObjGAMEOVER2();		//ゲームオーバーオブジェクト作成
-	Objs::InsertObj(obj, OBJ_GAMEOVER, 10);		//主人公オブジェクト登録
+	Objs::InsertObj(obj, OBJ_GAMEOVER2, 10);		//主人公オブジェクト登録
 }
 
 //ゲームメイン実行中メソッド

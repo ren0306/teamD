@@ -131,11 +131,15 @@
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="GAMEOVER1.cpp" />
     <ClCompile Include="GameOver2.cpp" />
+    <ClCompile Include="ObjED1.cpp" />
+    <ClCompile Include="ObjED3.cpp" />
     <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ObjMain.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
+    <ClCompile Include="SceneED1.cpp" />
+    <ClCompile Include="SceneED3.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
     <ClCompile Include="ShootingMain.cpp">
@@ -168,11 +172,15 @@
     <ClInclude Include="GAMEOVER1.h" />
     <ClInclude Include="GameOver2.h" />
     <ClInclude Include="main.h" />
+    <ClInclude Include="ObjED1.h" />
+    <ClInclude Include="ObjED3.h" />
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="ObjMain.h" />
     <ClInclude Include="ObjTitle.h" />
+    <ClInclude Include="SceneED1.h" />
+    <ClInclude Include="SceneED3.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ShootingMain.h">
