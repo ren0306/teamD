@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\タイトル">
+      <UniqueIdentifier>{16c0f645-267a-4c4a-bb1a-7594b14652ef}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー">
+      <UniqueIdentifier>{fd25106e-d3d8-48bb-b47c-89d4c00cbbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームメイン">
+      <UniqueIdentifier>{84846a55-7710-480e-bfbb-90e622db6432}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シューティング">
+      <UniqueIdentifier>{7616779f-9769-4162-adb1-f13ce870649d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\teamD\GameL\Audio.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\DirectXDevice.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\Draw2DTex_Source.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\DrawFont.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\DrawTexture.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\GameL_Main.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\HitBoxManager.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\MultiThread.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\SceneManager.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\SceneObjManager.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\SetWindow.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\UserData.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\WICTextureLoader.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\GameL\WinInputs.cpp">
+      <Filter>リソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\ObjTitle.cpp">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\SceneTitle.cpp">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\Game Over.cpp">
+      <Filter>ソース ファイル\ゲームオーバー</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\ObjMain.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\SceneMain.cpp">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\CObjBullet.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\ObjHero.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\ShootingMain.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\teamD\UtilityModule.cpp">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\teamD\GameHead.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\main.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\Audio.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\DirectXDevice.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\DirectXTex.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\DrawFont.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\DrawTexture.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\HitBoxManager.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\MultiThread.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\SceneManager.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\SceneObjManager.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\SetWindow.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\UserData.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\WICTextureLoader.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameL\WinInputs.h">
+      <Filter>リソース ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\ObjTitle.h">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\SceneTitle.h">
+      <Filter>ソース ファイル\タイトル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\GameOver.h">
+      <Filter>ソース ファイル\ゲームオーバー</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\SceneMain.h">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\ObjMain.h">
+      <Filter>ソース ファイル\ゲームメイン</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\CObjBullet.h">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\ObjHero.h">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\ShootingMain.h">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\teamD\UtilityModule.h">
+      <Filter>ソース ファイル\シューティング</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\teamD\GameL\DirectXTex.inl">
+      <Filter>リソース ファイル</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\teamD\GameL\DirectXTex.lib">
+      <Filter>リソース ファイル</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
