@@ -29,7 +29,7 @@ void CObjGAMEOVER::Action()
 		//マウスのボタンが押されたらメインに遷移
 		if (m_mou_r == true || m_mou_l == true)
 		{
-			Scene::SetScene(new CSceneMain());
+			Scene::SetScene(new CSceneTitle());
 		}
 	}
 }
