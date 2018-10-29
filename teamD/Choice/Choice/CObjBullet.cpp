@@ -26,7 +26,7 @@ void CObjBullet::Init()
 	m_ani = 0;
 	m_ani_time = 0;
 	m_del = false;
-	m_vx = 0.0f;
+	m_vy = 0.0f;
 
 	//当たり判定用HitBoxを作成
 	Hits::SetHitBox(this, m_x, m_y, 32, 32, ELEMENT_PLAYER, OBJ_BULLET, 1);
@@ -52,8 +52,8 @@ void CObjBullet::Action()
 	}
 
 	//弾丸実行処理　-----
-	m_vx += 1.0f;
-	m_x += m_vx;
+	m_vy += -1.0f;
+	m_y += m_vy;
 
 	//弾丸のHitBox更新用ポインター取得
 	CHitBox* hit = Hits::GetHitBox(this);

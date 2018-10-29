@@ -108,6 +108,9 @@
     <ClCompile Include="UtilityModule.cpp">
       <Filter>ソース ファイル\シューティング</Filter>
     </ClCompile>
+    <ClCompile Include="ObjBackGround.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
     <ClCompile Include="GameOver2.cpp">
       <Filter>ソース ファイル\ゲームオーバー%28敵に倒される%29</Filter>
     </ClCompile>
@@ -220,6 +223,9 @@
     </ClInclude>
     <ClInclude Include="ObjED3.h">
       <Filter>ソース ファイル\ED3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBackGround.h">
+      <Filter>ソース ファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

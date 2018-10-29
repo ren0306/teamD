@@ -130,6 +130,7 @@
     <ClCompile Include="GameL\WICTextureLoader.cpp" />
     <ClCompile Include="GameL\WinInputs.cpp" />
     <ClCompile Include="GAMEOVER1.cpp" />
+    <ClCompile Include="ObjBackGround.cpp" />
     <ClCompile Include="GameOver2.cpp" />
     <ClCompile Include="ObjED1.cpp" />
     <ClCompile Include="ObjED3.cpp" />
@@ -174,6 +175,7 @@
     <ClInclude Include="main.h" />
     <ClInclude Include="ObjED1.h" />
     <ClInclude Include="ObjED3.h" />
+    <ClInclude Include="ObjBackGround.h" />
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>

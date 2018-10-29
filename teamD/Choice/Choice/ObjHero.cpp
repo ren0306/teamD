@@ -37,8 +37,8 @@ float CObjHero::GetY()
 //イニシャライズ
 void CObjHero::Init()
 {
-	m_x = 100;
-	m_y = (600 / 2) - 16;
+	m_x = 400;
+	m_y = 550;
 	m_f = true;
 	m_vx = 0.0f;
 	m_vy = 0.0f;
@@ -59,7 +59,7 @@ void CObjHero::Action()
 			//Audio::Start(2);
 
 			// 弾丸オブジェクト作成
-			CObjBullet*  obj_b = new CObjBullet(m_x + 30.0f, m_y + 3.0f); //弾丸オブジェクト作成
+			CObjBullet*  obj_b = new CObjBullet(m_x , m_y + -30.0f); //弾丸オブジェクト作成
 			Objs::InsertObj(obj_b, OBJ_BULLET, 100); //作った弾丸オブジェクトをオブジェクトマネージャーに登録
 
 			m_f = false;
@@ -172,7 +172,7 @@ void CObjHero::Draw()
 	dst.m_right = 32.0f + m_x;
 	dst.m_bottom = 32.0f + m_y;
 
-	//0番目に登録したグラフィックをsrc・dst・cの情報を元に描画
-	Draw::Draw(0, &src, &dst, c, 0.0f);
+	//1番目に登録したグラフィックをsrc・dst・cの情報を元に描画
+	Draw::Draw(1, &src, &dst, c, 0.0f);
 
 }
