@@ -32,8 +32,14 @@ CSceneMain::~CSceneMain()
 //ゲームメイン初期化メソッド
 void CSceneMain::InitScene()
 {
+	//外部グラフィックファイルを読み込み０番に登録
+	Draw::LoadImageW(L"doukutu", 0, TEX_SIZE_512);
+
 	CObjMain* p = new CObjMain();
 	Objs::InsertObj(p, OBJ_MAIN, 21);
+
+	CObjBackGround* b = new CObjBackGround();
+	Objs::InsertObj(b, OBJ_BACKGROUND, 0);
 
 }
 
