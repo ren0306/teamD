@@ -25,6 +25,18 @@
     <Filter Include="ソース ファイル\シューティング">
       <UniqueIdentifier>{7616779f-9769-4162-adb1-f13ce870649d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー%28空腹%29">
+      <UniqueIdentifier>{fd25106e-d3d8-48bb-b47c-89d4c00cbbe6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ゲームオーバー%28敵に倒される%29">
+      <UniqueIdentifier>{4fe3e99e-6da9-4cdd-934a-b63aaae949a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ED1">
+      <UniqueIdentifier>{6d71262d-7866-4501-a695-6d721f1f320a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ED3">
+      <UniqueIdentifier>{83fb2ed0-0d46-463f-94b5-9be313c52567}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="GameL\Audio.cpp">
@@ -107,6 +119,18 @@
     </ClCompile>
     <ClCompile Include="GameOver2.cpp">
       <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneED1.cpp">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED1.cpp">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneED3.cpp">
+      <Filter>ソース ファイル\ED3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED3.cpp">
+      <Filter>ソース ファイル\ED3</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -191,6 +215,20 @@
     <ClInclude Include="GAME OVER2.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
+    <ClInclude Include="SceneED1.h">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED1.h">
+      <Filter>ソース ファイル\ED1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED3.h">
+      <Filter>ソース ファイル\ED3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED3.h">
+      <Filter>ソース ファイル\ED3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjBackGround.h">
+      <Filter>ソース ファイル</Filter>
     <ClInclude Include="GameOver2.h">
       <Filter>ヘッダー ファイル</Filter>
     </ClInclude>
