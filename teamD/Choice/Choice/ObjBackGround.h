@@ -6,11 +6,11 @@
 using namespace GameL;
 
 //シーン：ゲームタイトル
-class CObjMain :public CObj
+class CObjBackGround :public CObj
 {
 public:
-	CObjMain() {};
-	~CObjMain() {};
+	CObjBackGround() {};
+	~CObjBackGround() {};
 	void Init();
 	void Action();
 	void Draw();

@@ -2,16 +2,19 @@
 #include "GameL\DrawTexture.h"
 #include "GameL\WinInputs.h"
 #include "GameL\DrawFont.h"
+#include "GameL\SceneObjManager.h"
 #include "GameL\SceneManager.h"
 
-#include "ObjMain.h"
+#include "ObjBackGround.h"
+#include "SceneMain.h"
+#include "GameHead.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 
 //イニシャライズ
-void CObjMain::Init()
+void CObjBackGround::Init()
 {
 	m_mou_x = 0.0f;
 	m_mou_y = 0.0f;
@@ -21,7 +24,7 @@ void CObjMain::Init()
 }
 
 //アクション
-void CObjMain::Action()
+void CObjBackGround::Action()
 {
 	//マウスの位置を取得
 	m_mou_x = (float)Input::GetPosX();
@@ -33,12 +36,22 @@ void CObjMain::Action()
 }
 
 //ドロー
-void CObjMain::Draw()
+void CObjBackGround::Draw()
 {
-	float c[4] = { 1,1,1,1 };
-	//仮マウス位置表示
-	wchar_t str[256];
-	swprintf_s(str, L"x=%f,y=%f", m_mou_x, m_mou_y);
-	Font::StrDraw(str, 20, 20, 12, c);
 
+	float s[4] = { 1.0f,1.0f,1.0f,1.0f };
+	RECT_F src;
+	RECT_F dst;
+
+	src.m_top = 256.0f;
+	src.m_left = 0.0f;
+	src.m_right = 512.0f;
+	src.m_bottom = 512.0f;
+
+	dst.m_top = 0.0f;
+	dst.m_left = 0.0f;
+	dst.m_right = 800.0f;
+	dst.m_bottom = 600.0f;
+
+	Draw::Draw(0, &src, &dst, s, 0.0f);
 }
