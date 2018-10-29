@@ -113,7 +113,9 @@
     <ClCompile Include="..\..\teamD\CObjBullet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\teamD\Game Over.cpp" />
+    <ClCompile Include="..\..\teamD\Game Over.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="..\..\teamD\GameL\Audio.cpp" />
     <ClCompile Include="..\..\teamD\GameL\DirectXDevice.cpp" />
     <ClCompile Include="..\..\teamD\GameL\Draw2DTex_Source.cpp" />
@@ -160,7 +162,9 @@
     <ClInclude Include="..\..\teamD\GameL\UserData.h" />
     <ClInclude Include="..\..\teamD\GameL\WICTextureLoader.h" />
     <ClInclude Include="..\..\teamD\GameL\WinInputs.h" />
-    <ClInclude Include="..\..\teamD\GameOver.h" />
+    <ClInclude Include="..\..\teamD\GameOver.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="..\..\teamD\main.h" />
     <ClInclude Include="..\..\teamD\ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
