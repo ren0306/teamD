@@ -4,6 +4,7 @@
 #include "GameL\DrawFont.h"
 #include "GameL\SceneManager.h"
 
+#include "GameHead.h"
 #include "ObjMain.h"
 
 //使用するネームスペース
@@ -29,6 +30,16 @@ void CObjMain::Action()
 	//マウスのボタンの状態
 	m_mou_r = Input::GetMouButtonR();
 	m_mou_l = Input::GetMouButtonL();
+	//マウスの位置とクリックする場所で当たり判定
+	if (m_mou_x > 400 && m_mou_x < 620 && m_mou_y>190 && m_mou_y < 230)
+	{
+		//マウスのボタンが押されたらメインに遷移
+		if (m_mou_r == true || m_mou_l == true)
+		{
+			Scene::SetScene(new CSceneGameOver());
+		}
+	}
+
 
 }
 

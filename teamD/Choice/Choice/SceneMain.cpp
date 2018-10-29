@@ -6,7 +6,7 @@
 #include "GameL\SceneObjManager.h"
 #include "GameL\DrawTexture.h"
 #include "GameL\DrawFont.h"
-
+#include "GameL\UserData.h"
 //使用するネームスペース
 using namespace GameL;
 
@@ -33,13 +33,16 @@ CSceneMain::~CSceneMain()
 void CSceneMain::InitScene()
 {
 	//外部グラフィックファイルを読み込み０番に登録
-	Draw::LoadImageW(L"doukutu", 0, TEX_SIZE_512);
+	Draw::LoadImageW(L"doukutu.png", 0, TEX_SIZE_512);
+	Draw::LoadImageW(L"door.png", 1, TEX_SIZE_512);
 
-	CObjMain* p = new CObjMain();
-	Objs::InsertObj(p, OBJ_MAIN, 21);
+	CObjMain* m = new CObjMain();
+	Objs::InsertObj(m, OBJ_MAIN, 12);
 
 	CObjBackGround* b = new CObjBackGround();
 	Objs::InsertObj(b, OBJ_BACKGROUND, 0);
+
+
 
 }
 
