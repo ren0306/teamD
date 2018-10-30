@@ -42,11 +42,7 @@ void CSceneMain::InitScene()
 	CObjBackGround* b = new CObjBackGround();
 	Objs::InsertObj(b, OBJ_BACKGROUND, 0);
 
-	//外部グラフィックファイルを読み込み1番に登録
-	Draw::LoadImageW(L"teki1.png", 10, TEX_SIZE_512);
-
-	CObjteki1*q = new CObjteki1(10,10);
-	Objs::InsertObj(q, OBJ_TEKI1, 100);
+	
 
 
 
