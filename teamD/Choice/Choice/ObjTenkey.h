@@ -28,8 +28,8 @@ private:
 	bool m_flag_7 = false;
 	bool m_flag_8 = false;
 	bool m_flag_9 = false;
-	bool m_flag_one = false;
-	float m_p=0.0f;
-
+	int m_x1 = 0;
+	int m_ps = 300;
+	
 
 };

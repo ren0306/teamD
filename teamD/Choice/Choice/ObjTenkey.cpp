@@ -8,7 +8,6 @@
 #include "ObjTenkey.h"
 #include "SceneMain.h"
 
-#define DF 300//デフォルト座標
 //使用するネームスペース
 using namespace GameL;
 
@@ -85,7 +84,6 @@ void CObjTenkey::flag()
 			if (m_mou_l == true)
 			{
 				m_flag_7 = true;
-				cnt++;
 			}
 		}
 		//4入力
@@ -162,48 +160,126 @@ void CObjTenkey::flag()
 		}
 
 	}
-	if (cnt == 1)
-	{
-		DF += 0;
-	}
+
+
 	//それぞれの数字のボタンをクリックしたときのフラグ
 	if (m_flag_1 == true)
 	{
-		Font::StrDraw(L"1", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+		else if (m_x1 == 2)
+		{
+			m_ps = 340;
+		}
+		else if (m_x1 == 3)
+		{
+			m_ps = 360;
+		}
+		Font::StrDraw(L"1", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_2 == true)
 	{
-		Font::StrDraw(L"2", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"2", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_3 == true)
 	{
-		Font::StrDraw(L"3", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"3", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_4 == true)
 	{
-		Font::StrDraw(L"4", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"4", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_5 == true)
 	{
-		Font::StrDraw(L"5", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"5", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_6 == true)
 	{
-		Font::StrDraw(L"6", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"6", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_7 == true)
 	{
-		Font::StrDraw(L"7", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"7", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_8 == true)
 	{
-		Font::StrDraw(L"8", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"8", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 	if (m_flag_9 == true)
 	{
-		Font::StrDraw(L"9", DF, 270, 50, o);
+		if (m_x1 == 1)
+		{
+			m_ps = 320;
+		}
+
+		Font::StrDraw(L"9", m_ps, 270, 50, o);
+		m_ps -= 20;
+		m_x1 += 1;
+
 	}
 
+	//どうしてこうなった
 
 }
 
