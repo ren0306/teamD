@@ -112,6 +112,15 @@
     <ClCompile Include="CObjBullteEnemy.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -228,6 +237,15 @@
     <ClInclude Include="CObjBullteEnemy.h">
       <Filter>ソースファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Objteki1.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -238,6 +256,27 @@
     </Filter>
     <Filter Include="リソースファイル">
       <UniqueIdentifier>{abc39fff-a87f-49da-985e-a59018175b51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\GameOver">
+      <UniqueIdentifier>{74d457b6-f72d-4368-b766-e6cb8b35ec14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\ゲームメイン">
+      <UniqueIdentifier>{8f682e77-08d9-4079-8502-be2847915a7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング">
+      <UniqueIdentifier>{e0fd43df-e3f5-40a8-8dcf-ee9406f08531}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\エンディング">
+      <UniqueIdentifier>{8903072d-49bd-43f0-9b5e-e232702a2323}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\謎解き関係">
+      <UniqueIdentifier>{d70192f0-d91c-45cc-a2c5-1a7c26c3322d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\タイトル">
+      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki1">
+      <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

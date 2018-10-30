@@ -141,6 +141,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ObjMain.cpp" />
+    <ClCompile Include="ObjSTG.cpp" />
+    <ClCompile Include="Objteki1.cpp" />
     <ClCompile Include="ObjTenkey.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="SceneED2.cpp" />
@@ -148,6 +150,7 @@
     <ClCompile Include="SceneED3.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneNazo.cpp" />
+    <ClCompile Include="SceneSTG.cpp" />
     <ClCompile Include="SceneTitle.cpp" />
     <ClCompile Include="ShootingMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -189,6 +192,8 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="ObjMain.h" />
+    <ClInclude Include="ObjSTG.h" />
+    <ClInclude Include="Objteki1.h" />
     <ClInclude Include="ObjTenkey.h" />
     <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="SceneED2.h" />
@@ -196,6 +201,7 @@
     <ClInclude Include="SceneED3.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneNazo.h" />
+    <ClInclude Include="SceneSTG.h" />
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ShootingMain.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
