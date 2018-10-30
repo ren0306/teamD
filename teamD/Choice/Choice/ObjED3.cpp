@@ -51,9 +51,10 @@ void CObjED3::Draw()
 	swprintf_s(str, L"x=%f,y=%f", m_mou_x, m_mou_y);
 	Font::StrDraw(str, 20, 20, 12, c);
 
-	float o[4] = { 0.5f,0.0f,1.0f,1.0f };
-	Font::StrDraw(L"BAD END", 250, 50, 90, o);
-
-
+	float o[4] = { 1.0f,1.0f,0.0f,1.0f };
+	Font::StrDraw(L"HAPPY END", 200, 50, 90, o);
+	float s[4] = { 0.6f,0.6f,1.0f,1.0f };
+	Font::StrDraw(L"やったね！敵に気づかれずに脱出することができた！", 50, 450, 30, s);
+	Font::StrDraw(L"クリックでタイトルへ", 460, 535, 25, c);
 
 }
