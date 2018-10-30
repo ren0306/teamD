@@ -139,6 +139,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ObjMain.cpp" />
+    <ClCompile Include="Objteki1.cpp" />
     <ClCompile Include="ObjTenkey.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="SceneED2.cpp" />
@@ -185,6 +186,7 @@
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="ObjMain.h" />
+    <ClInclude Include="Objteki1.h" />
     <ClInclude Include="ObjTenkey.h" />
     <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="SceneED2.h" />
