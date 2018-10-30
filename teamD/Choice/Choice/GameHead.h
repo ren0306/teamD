@@ -18,6 +18,7 @@ enum OBJ_NAME
 	OBJ_ED2,
 	OBJ_NAZO,
 	OBJ_TENKEY,
+	OBJ_TEKI1,
 
 };
 //------------------------------------------------
@@ -75,6 +76,7 @@ struct UserData
 #include "ObjED1.h"
 #include "ObjED3.h"
 #include "ObjTenkey.h"
+#include "Objteki1.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------

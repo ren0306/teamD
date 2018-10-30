@@ -106,6 +106,9 @@
     <ClCompile Include="SceneTitle.cpp">
       <Filter>ソースファイル\タイトル</Filter>
     </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -216,6 +219,9 @@
     <ClInclude Include="SceneTitle.h">
       <Filter>ソースファイル\タイトル</Filter>
     </ClInclude>
+    <ClInclude Include="Objteki1.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -244,6 +250,9 @@
     </Filter>
     <Filter Include="ソースファイル\タイトル">
       <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki1">
+      <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
