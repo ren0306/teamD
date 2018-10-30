@@ -28,8 +28,15 @@ void CObjteki1::Init()
 //アクション
 void CObjteki1::Action()
 {
+	//角度加算
+	m_r += 2.0f;
+
+	//360°で初期値に戻す
+	if (m_r > 360.0f)
+		m_r = 0.0f;
+
 	//移動方向
-	m_vx = 0.0f;
+	m_vx = sin(3.14 / 180 * m_r);
 	m_vy = 0.0f;
 
 	//移動ベクトル正規化
@@ -47,14 +54,14 @@ void CObjteki1::Action()
 	//hit->SetPos(m_x + 100, m_y + 50);
 
 	//敵機が完全に領域外にでたら敵機を破棄する
-	/*bool check = CheckWindow(m_x, m_y, -32.0f, -32.0, 800.0f, 600.0f);
+	bool check = CheckWindow(m_x, m_y, -32.0f, -32.0, 800.0f, 600.0f);
 	if (check == false)
 	{
 		this->SetStatus(false);		//自身に削除命令
-		Hits::DeleteHitBox(this);
+		//Hits::DeleteHitBox(this);
 	}
 
-	*/
+	
 	}
 
 	//ドロー
@@ -75,7 +82,7 @@ void CObjteki1::Action()
 		//表示位置の設定
 		dst.m_top = 0.0f + m_y;
 		dst.m_left = 0.0f + m_x;
-		dst.m_right = 512.0f + m_x;
+		dst.m_right = 400.0f + m_x;
 		dst.m_bottom = 260.0f + m_y;
 
 		//0番めに登録したグラフィックをsrc・dst・cの情報を元に描画
