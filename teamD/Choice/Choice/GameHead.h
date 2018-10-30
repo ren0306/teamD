@@ -19,6 +19,7 @@ enum OBJ_NAME
 	OBJ_NAZO,
 	OBJ_TENKEY,
 	OBJ_TEKI1,
+	OBJ_STG,
 
 };
 //------------------------------------------------
@@ -77,6 +78,7 @@ struct UserData
 #include "ObjED3.h"
 #include "ObjTenkey.h"
 #include "Objteki1.h"
+#include "ObjSTG.h"
 //------------------------------------------------
 
 //ゲームシーンクラスヘッダ------------------------
@@ -89,9 +91,10 @@ struct UserData
 #include "SceneED3.h"
 #include "SceneED2.h"
 #include "SceneNazo.h"
+#include "SceneSTG.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneED3
+#define SET_GAME_START CSceneSTG
 //-----------------------------------------------

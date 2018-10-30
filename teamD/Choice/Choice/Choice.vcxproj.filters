@@ -109,6 +109,12 @@
     <ClCompile Include="Objteki1.cpp">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -221,6 +227,12 @@
     </ClInclude>
     <ClInclude Include="Objteki1.h">
       <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
