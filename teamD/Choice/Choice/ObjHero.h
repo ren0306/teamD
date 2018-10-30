@@ -17,10 +17,13 @@ public:
 	void SetY(float y);//位置情報Y変更用
 	float GetX();	   //位置情報X取得用
 	float GetY();	   //位置情報Y取得用
+	int  EnemyATK();   //敵攻撃力取得用
 private:
 	float m_x;		//主人公機のｘ方向移動用変数
 	float m_y;		//主人公機のｙ方向移動用変数
 	bool  m_f;      //弾丸発射制御用
 	float m_vx;		//主人公機のｘ方向移動ベクトル用変数
 	float m_vy;		//主人公機のｙ方向移動ベクトル用変数
+	int   m_hp;		//自機のヒットポイント
+	int   Enemy_atk;//対峙する敵の攻撃力
 };

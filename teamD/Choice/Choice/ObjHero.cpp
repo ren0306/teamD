@@ -34,9 +34,18 @@ float CObjHero::GetY()
 	return m_y;
 }
 
+/*
+//敵攻撃力取得用
+int CObjHero::EnemyATK()
+{
+	 = ;
+}
+*/
+
 //イニシャライズ
 void CObjHero::Init()
 {
+	m_hp = 20;
 	m_x = 400;
 	m_y = 550;
 	m_f = true;
@@ -139,8 +148,14 @@ void CObjHero::Action()
 	CHitBox* hit = Hits::GetHitBox(this);	//作成したHitBox更新用の入り口を取り出す
 	hit->SetPos(m_x, m_y);					//入り口から新しい位置(主人公機の位置）情報に置き換える
 
-	//ELEMENT_ENEMYを持つオブジェクトと接触したら主人公機削除
+	//ELEMENT_ENEMYを持つオブジェクトと接触したらHPを減らす
 	if (hit->CheckElementHit(ELEMENT_ENEMY) == true)
+	{
+		//m_hp -= 敵の攻撃力;
+	}
+
+	//HPが0になったら破棄
+	if (m_hp <= 0)
 	{
 		this->SetStatus(false);		//自身に削除命令を出す。
 		Hits::DeleteHitBox(this);	//主人公機が所有するHitBoxに削除する。

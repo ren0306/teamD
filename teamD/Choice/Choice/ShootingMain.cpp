@@ -50,6 +50,9 @@ void CShootingMain::InitScene()
 	//外部グラフィックファイルを読み込み1番に登録(512×512ピクセル)
 	Draw::LoadImage(L"hero.png", 1, TEX_SIZE_512);
 
+	//外部グラフィックファイルを読み込み2番に登録(512×512ピクセル)
+	Draw::LoadImage(L"Enemy2.png", 2, TEX_SIZE_512);
+
 	//外部グラフィックファイルを読み込み1番に登録(512×512ピクセル)
 	//Draw::LoadImage(L"BossBack.png", 1, TEX_SIZE_512);
 
@@ -61,15 +64,24 @@ void CShootingMain::InitScene()
 	//背景オブジェクト作成
 	CObjBackground* back = new CObjBackground();
 	Objs::InsertObj(back, OBJ_BACKGROUND, 5);
+	*/
 
 	//タイム初期化
 	m_time = 0;
-	*/
 }
 
 //ゲームメイン実行中メソッド
 void CShootingMain::Scene()
 {
+	m_time++;
+
+	if (m_time == 1)
+	{
+		CObjEnemy2* obj;
+		obj = new CObjEnemy2(400, 200);
+		Objs::InsertObj(obj, OBJ_ENEMY2, 50);
+	}
+
 	/*
 	m_time++;
 
