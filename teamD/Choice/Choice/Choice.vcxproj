@@ -113,6 +113,7 @@
     <ClCompile Include="CObjBullet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="CObjBullteEnemy.cpp" />
     <ClCompile Include="Game Over.cpp" />
     <ClCompile Include="GAME OVER2.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
@@ -135,6 +136,7 @@
     <ClCompile Include="ObjED1.cpp" />
     <ClCompile Include="ObjED3.cpp" />
     <ClCompile Include="ObjED2.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp" />
     <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -158,6 +160,7 @@
     <ClInclude Include="CObjBullet.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
+    <ClInclude Include="CObjBullteEnemy.h" />
     <ClInclude Include="GAME OVER2.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
@@ -181,6 +184,7 @@
     <ClInclude Include="ObjED3.h" />
     <ClInclude Include="ObjBackGround.h" />
     <ClInclude Include="ObjED2.h" />
+    <ClInclude Include="ObjEnemy2.h" />
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>

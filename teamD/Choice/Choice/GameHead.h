@@ -9,6 +9,8 @@ enum OBJ_NAME
 	OBJ_TITLE,
 	OBJ_HERO,
 	OBJ_BULLET,
+	OBJ_ENEMY2,
+	OBJ_BULLET_ENEMY,
 	OBJ_GAMEOVER,
 	OBJ_MAIN,
 	OBJ_BACKGROUND,
@@ -66,6 +68,8 @@ struct UserData
 //ゲームシーンオブジェクトヘッダ------------------
 #include "ObjHero.h"
 #include "CObjBullet.h"
+#include "ObjEnemy2.h"
+#include "CObjBullteEnemy.h"
 #include "ObjTitle.h"
 #include "ObjMain.h"
 #include "GAMEOVER1.h"
@@ -91,5 +95,6 @@ struct UserData
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneED3
+//#define SET_GAME_START CSceneED3
+#define SET_GAME_START CShootingMain
 //-----------------------------------------------
