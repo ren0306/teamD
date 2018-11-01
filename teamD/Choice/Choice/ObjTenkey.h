@@ -13,23 +13,16 @@ public:
 	void Init();		//イニシャライズ
 	void Action();		//アクション
 	void Draw();		//ドロー
-	void flag();
+	void flag();		//入力フラグ
 private:
 	float m_mou_x;
 	float m_mou_y;
 	bool m_mou_r;
 	bool m_mou_l;	
-	bool m_flag_1 = false;
-	bool m_flag_2 = false;
-	bool m_flag_3 = false;
-	bool m_flag_4 = false;
-	bool m_flag_5 = false;
-	bool m_flag_6 = false;
-	bool m_flag_7 = false;
-	bool m_flag_8 = false;
-	bool m_flag_9 = false;
-	int m_x1 = 0;
+	bool m_f;
+	int cnt = 0;
 	int m_ps = 300;
-	
+	bool m_flag[10] ;
+	bool m_reset_flag=false;
 
 };

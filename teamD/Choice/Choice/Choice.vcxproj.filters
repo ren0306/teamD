@@ -113,13 +113,13 @@
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="ObjBackGround.cpp">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClCompile>
     <ClCompile Include="SceneTitle.cpp">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClCompile>
     <ClCompile Include="ObjTitle.cpp">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -238,13 +238,13 @@
       <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="ObjBackGround.h">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClInclude>
     <ClInclude Include="ObjTitle.h">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClInclude>
     <ClInclude Include="SceneTitle.h">
-      <Filter>ソースファイル\タイトル</Filter>
+      <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -269,14 +269,14 @@
     <Filter Include="ソースファイル\謎解き関係">
       <UniqueIdentifier>{d70192f0-d91c-45cc-a2c5-1a7c26c3322d}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソースファイル\タイトル">
-      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
-    </Filter>
     <Filter Include="ソースファイル\シューティング">
       <UniqueIdentifier>{e0fd43df-e3f5-40a8-8dcf-ee9406f08531}</UniqueIdentifier>
     </Filter>
     <Filter Include="ソースファイル\シューティング\teki1">
       <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\タイトル">
+      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
