@@ -52,12 +52,6 @@
     <ClCompile Include="Objteki1.cpp">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClCompile>
-    <ClCompile Include="SceneSTG.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjSTG.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
     <ClCompile Include="CObjBullet.cpp">
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
@@ -65,6 +59,7 @@
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="ObjEnemy2.cpp">
+    <ClCompile Include="ObjHero.cpp">
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
     <ClCompile Include="Game Over.cpp">
@@ -114,6 +109,39 @@
     </ClCompile>
     <ClCompile Include="ObjTitle.cpp">
       <Filter>ソースファイル\タイトル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy1.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
     </ClCompile>
     <ClCompile Include="ObjTenkey.cpp">
       <Filter>ソースファイル\謎解き関係</Filter>
@@ -176,12 +204,6 @@
     </ClInclude>
     <ClInclude Include="Objteki1.h">
       <Filter>ソースファイル\シューティング\teki1</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneSTG.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjSTG.h">
-      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="CObjBullteEnemy.h">
       <Filter>ソースファイル\シューティング</Filter>
@@ -246,6 +268,39 @@
     <ClInclude Include="SceneNazo.h">
       <Filter>ソースファイル\謎解き関係</Filter>
     </ClInclude>
+    <ClInclude Include="Objteki3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy1.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -277,6 +332,12 @@
     </Filter>
     <Filter Include="ソースファイル\シューティング\teki1">
       <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\タイトル">
+      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki3">
+      <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

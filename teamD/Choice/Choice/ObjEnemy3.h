@@ -4,12 +4,12 @@
 //使用するネームスペース
 using namespace GameL;
 
-//オブジェクト：敵２
-class CObjEnemy2 : public CObj
+//オブジェクト：敵3
+class CObjEnemy3 : public CObj
 {
 public:
-	CObjEnemy2(float x, float y);//コンストラクタ位置情報をもらう
-	~CObjEnemy2() {};
+	CObjEnemy3(float x, float y);//コンストラクタ位置情報をもらう
+	~CObjEnemy3() {};
 	void Init();	//イニシャライズ
 	void Action();  //アクション
 	void Draw();	//ドロー
