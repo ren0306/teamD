@@ -113,7 +113,9 @@
     <ClCompile Include="CObjBullet.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="CObjBullteEnemy.cpp" />
+    <ClCompile Include="CObjBullteEnemy.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="Game Over.cpp" />
     <ClCompile Include="GAME OVER2.cpp" />
     <ClCompile Include="GameL\Audio.cpp" />
@@ -136,13 +138,19 @@
     <ClCompile Include="ObjED1.cpp" />
     <ClCompile Include="ObjED3.cpp" />
     <ClCompile Include="ObjED2.cpp" />
-    <ClCompile Include="ObjEnemy2.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
     <ClCompile Include="ObjMain.cpp" />
-    <ClCompile Include="ObjSTG.cpp" />
-    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="ObjSTG.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="ObjTenkey.cpp" />
     <ClCompile Include="ObjTitle.cpp" />
     <ClCompile Include="SceneED2.cpp" />
@@ -150,7 +158,9 @@
     <ClCompile Include="SceneED3.cpp" />
     <ClCompile Include="SceneMain.cpp" />
     <ClCompile Include="SceneNazo.cpp" />
-    <ClCompile Include="SceneSTG.cpp" />
+    <ClCompile Include="SceneSTG.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="SceneTitle.cpp" />
     <ClCompile Include="ShootingMain.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
@@ -163,7 +173,9 @@
     <ClInclude Include="CObjBullet.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="CObjBullteEnemy.h" />
+    <ClInclude Include="CObjBullteEnemy.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="GAME OVER2.h" />
     <ClInclude Include="GameHead.h" />
     <ClInclude Include="GameL\Audio.h" />
@@ -187,13 +199,19 @@
     <ClInclude Include="ObjED3.h" />
     <ClInclude Include="ObjBackGround.h" />
     <ClInclude Include="ObjED2.h" />
-    <ClInclude Include="ObjEnemy2.h" />
+    <ClInclude Include="ObjEnemy2.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
     <ClInclude Include="ObjMain.h" />
-    <ClInclude Include="ObjSTG.h" />
-    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjSTG.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
+    <ClInclude Include="Objteki1.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="ObjTenkey.h" />
     <ClInclude Include="ObjTitle.h" />
     <ClInclude Include="SceneED2.h" />
@@ -201,7 +219,9 @@
     <ClInclude Include="SceneED3.h" />
     <ClInclude Include="SceneMain.h" />
     <ClInclude Include="SceneNazo.h" />
-    <ClInclude Include="SceneSTG.h" />
+    <ClInclude Include="SceneSTG.h">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClInclude>
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ShootingMain.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>

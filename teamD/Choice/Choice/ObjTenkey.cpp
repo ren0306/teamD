@@ -19,13 +19,23 @@ void CObjTenkey::Init()
 	m_mou_y = 0.0f;
 	m_mou_r = false;
 	m_mou_l = false;
-
+	m_f = true;
+	m_flag[1] = true;
+	m_flag[2] = true;
+	m_flag[3] = true;
+	m_flag[4] = true;
+	m_flag[5] = true;
+	m_flag[6] = true;
+	m_flag[7] = true;
+	m_flag[8] = true;
+	m_flag[9] = true;
+	m_flag[10] = true;
 }
 
 //アクション
 void CObjTenkey::Action()
 {
-	if (m_flag[5] == true&&m_flag[4]==true&&m_flag[7]==true)
+	if (m_flag[5] == false&&m_flag[4]==false&&m_flag[7]==false)
 	{
 		Scene::SetScene(new CSceneMain);
 	}
@@ -36,7 +46,6 @@ void CObjTenkey::Action()
 	m_mou_r = Input::GetMouButtonR();
 	m_mou_l = Input::GetMouButtonL();
 
-	m_ps = 300.0f;
 	float o[4] = { 0.5f,0.0f,1.0f,1.0f };
 	float f[4] = { 1.0f,1.0f,1.0f,1.0f };
 	Font::StrDraw(L"[すべて削除]", 500, 450, 30, f);
@@ -52,156 +61,223 @@ void CObjTenkey::Action()
 		//７入力
 			if (m_mou_y > 373 && m_mou_y < 410)
 			{
-				if (m_mou_l == true)
+				if (m_flag[7] == true)
 				{
-					m_flag[7] = true;
+					Font::StrDraw(L"7", m_ps, 270, 50, o);
+					m_flag[7] = false;
+				}
+				else
+				{
+					m_flag[7] == true;
 				}
 			}
 			//4入力
 			else if (m_mou_y > 416 && m_mou_y < 450)
 			{
-				if (m_mou_l == true)
-				{
-					m_flag[4] = true;
-				}
+					if (m_mou_l == true)
+					{
+						if (m_flag[4] == true)
+						{
+							Font::StrDraw(L"4", m_ps, 270, 50, o);
+							m_flag[4] = false;
+						}
+					}
+					else
+					{
+						m_flag[4] == true;
+					}
 			}
 			//1入力
 			else if (m_mou_y > 460 && m_mou_y < 494)
 			{
 				if (m_mou_l == true)
 				{
-					m_flag[1] = true;
+					if (m_flag[1] == true)
+					{
+						Font::StrDraw(L"1", m_ps, 270, 50, o);
+						m_flag[1] = false;
+					}
+				}
+				else
+				{
+					m_flag[1] == true;
 				}
 			}
 
 		}
 	//852
 	if (m_mou_x > 353 && m_mou_x < 395)
+	{
+		//8入力
+		if (m_mou_y > 373 && m_mou_y < 410)
 		{
-			//8入力
-			if (m_mou_y > 373 && m_mou_y < 410)
+			if (m_mou_l == true)
 			{
-				if (m_mou_l == true)
+				if (m_flag[8] == true)
 				{
-					m_flag[8] = true;
+					Font::StrDraw(L"8", m_ps, 270, 50, o);
+					m_flag[8] = false;
 				}
 			}
-			//5入力
-			else if (m_mou_y > 416 && m_mou_y < 450)
+			else
 			{
-				if (m_mou_l == true)
-				{
-					m_flag[5] = true;
-				}
-			}
-			//2入力
-			else if (m_mou_y > 460 && m_mou_y < 494)
-			{
-				if (m_mou_l == true)
-				{
-					m_flag[2] = true;
-				}
+				m_flag[8] == true;
 			}
 
 		}
-	//963
-	if (m_mou_x > 406 && m_mou_x < 445)
+		//5入力
+		else if (m_mou_y > 416 && m_mou_y < 450)
+		{
+			if (m_mou_l == true)
+			{
+				if (m_flag[5] == true)
+				{
+					Font::StrDraw(L"5", m_ps, 270, 50, o);
+					m_flag[5] = false;
+				}
+			}
+			else
+			{
+				m_flag[5] == true;
+			}
+
+		}
+		//2入力
+		else if (m_mou_y > 460 && m_mou_y < 494)
+		{
+			if (m_mou_l == true)
+			{
+				if (m_flag[7] == true)
+				{
+					Font::StrDraw(L"2", m_ps, 270, 50, o);
+					m_flag[7] = false;
+				}
+			}
+			else
+			{
+				m_flag[7] == true;
+			}
+
+		}
+
+	}
+		//963
+		if (m_mou_x > 406 && m_mou_x < 445)
 		{
 			//9入力
 			if (m_mou_y > 373 && m_mou_y < 410)
 			{
 				if (m_mou_l == true)
 				{
-					m_flag[9] = true;
+					if (m_flag[9] == true)
+					{
+						Font::StrDraw(L"9", m_ps, 270, 50, o);
+						m_flag[9] = false;
+					}
 				}
+				else
+				{
+					m_flag[9] == true;
+				}
+
 			}
 			//6入力
 			else if (m_mou_y > 416 && m_mou_y < 450)
 			{
 				if (m_mou_l == true)
 				{
-					m_flag[6] = true;
+					if (m_flag[6] == true)
+					{
+						Font::StrDraw(L"6", m_ps, 270, 50, o);
+						m_flag[6] = false;
+					}
 				}
+				else
+				{
+					m_flag[6] == true;
+				}
+
+
 			}
 			//3入力
 			else if (m_mou_y > 460 && m_mou_y < 494)
 			{
 				if (m_mou_l == true)
 				{
-					m_flag[3] = true;
+					if (m_flag[3] == true)
+					{
+						Font::StrDraw(L"3", m_ps, 270, 50, o);
+						m_flag[3] = false;
+					}
 				}
+				else
+				{
+					m_flag[3] == true;
+				}
+
 			}
 
 		}
-	//[すべて削除]を押すと(未実装)
-	if (m_reset_flag == false)
+		//[すべて削除]を押すと(未実装)
+		if (m_reset_flag == true)
 		{
-			//数字を削除するプログラム
+			return;
 		}
 
-
-	if (m_flag[1] == true)
+		if (cnt == 4)
 		{
-
-			Font::StrDraw(L"1", m_ps, 270, 50, o);
-			m_ps += 30;
-
+			Scene::SetScene(new CSceneGameOver2);
 		}
-	if (m_flag[2] == true)
-		{
+		/*
+		if (m_flag[1] == true)
+			{
+				Font::StrDraw(L"1", m_ps, 270, 50, o);
+			}
+		if (m_flag[2] == true)
+			{
 
-			Font::StrDraw(L"2", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"2", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[3] == true)
-		{
+			}
+		if (m_flag[3] == true)
+			{
 
-			Font::StrDraw(L"3", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"3", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[4] == true)
-		{
+			}
+		if (m_flag[4] == true)
+			{
 
-			Font::StrDraw(L"4", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"4", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[5] == true)
-		{
+			}
+		if (m_flag[5] == true)
+			{
 
-			Font::StrDraw(L"5", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"5", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[6] == true)
-		{
+			}
+		if (m_flag[6] == true)
+			{
 
-			Font::StrDraw(L"6", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"6", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[7] == true)
-		{
-			Font::StrDraw(L"7", m_ps, 270, 50, o);
-			m_ps += 30;
+			}
+		if (m_flag[7] == true)
+			{
 
-		}
-	if (m_flag[8] == true)
-		{
+			}
+		if (m_flag[8] == true)
+			{
 
-			Font::StrDraw(L"8", m_ps, 270, 50, o);
-			m_ps += 30;
+				Font::StrDraw(L"8", m_ps, 270, 50, o);
 
-		}
-	if (m_flag[9] == true)
-		{
-			Font::StrDraw(L"9", m_ps, 270, 50, o);
-			m_ps += 30;
-
-		}
-
+			}
+		if (m_flag[9] == true)
+			{
+				Font::StrDraw(L"9", m_ps, 270, 50, o);
+			}
+			*/
 
 
 }
@@ -209,6 +285,7 @@ void CObjTenkey::Action()
 //ドロー
 void CObjTenkey::Draw()
 {
+
 	float c[4] = { 1,1,1,1 };
 	//仮マウス位置表示
 	wchar_t str[256];
