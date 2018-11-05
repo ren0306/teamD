@@ -39,8 +39,8 @@ void CSceneSTG3::InitScene()
 	CObjMain* m = new CObjMain();
 	Objs::InsertObj(m, OBJ_STG3, 10);
 
-	CObjBackGround* b = new CObjBackGround();
-	Objs::InsertObj(b, OBJ_BACKGROUND, 0);
+	CObjBackGround* p = new CObjBackGround();
+	Objs::InsertObj(p, OBJ_BACKGROUND, 0);
 
 
 	//外部グラフィックファイルを読み込み1番に登録
