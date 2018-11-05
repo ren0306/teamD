@@ -1,32 +1,34 @@
 //使用するヘッダーファイル
 #include "GameL\DrawTexture.h"
-
+#include "GameL\HitBoxManager.h"
 
 #include "GameHead.h"
-#include "Objteki3.h"
+#include "Objteki4.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //コンストラクタ
-CObjteki3::CObjteki3(float x, float y)
+CObjteki4::CObjteki4(float x, float y)
 {
 	m_x = x;
 	m_y = y;
 }
 
 //イニシャライズ
-void CObjteki3::Init()
+void CObjteki4::Init()
 {
 	m_vx = 0.0f;
 	m_vy = 0.0f;
 
+	//当たり判定HitBox
+	Hits::SetHitBox(this, m_x, m_y, 160, 210, ELEMENT_ENEMY, OBJ_ENEMY4, 1);
 
 }
 
 //アクション
-void CObjteki3::Action()
+void CObjteki4::Action()
 {
 	//角度加算
 	m_r += 2.0f;
@@ -61,11 +63,13 @@ void CObjteki3::Action()
 									//Hits::DeleteHitBox(this);
 	}
 
-
+	//HitBoxの内容を更新
+	CHitBox* hit = Hits::GetHitBox(this);
+	hit->SetPos(m_x, m_y);
 }
 
 //ドロー
-void CObjteki3::Draw()
+void CObjteki4::Draw()
 {
 	//描画カラー情報　R=RED　G=Green　B=Blue　A=alpha(透過情報）A=alpha(透過情報）
 	float c[4] = { 1.0f,1.0f,1.0f,1.0f };
@@ -73,17 +77,17 @@ void CObjteki3::Draw()
 	RECT_F src;//描画元切り取り位置
 	RECT_F dst;//描画先表示位置
 
-			   //切り取り位置の設定
+	//切り取り位置の設定
 	src.m_top = 0.0f;
 	src.m_left = 0.0f;
-	src.m_right = 512.0f;
-	src.m_bottom = 512.0f;
+	src.m_right = 1152.0f;
+	src.m_bottom = 1772.0f;
 
 	//表示位置の設定
 	dst.m_top = 0.0f + m_y;
 	dst.m_left = 0.0f + m_x;
-	dst.m_right = 200.0f + m_x;
-	dst.m_bottom = 200.0f + m_y;
+	dst.m_right = 160.0f + m_x;
+	dst.m_bottom = 210.0f + m_y;
 
 	//0番めに登録したグラフィックをsrc・dst・cの情報を元に描画
 	Draw::Draw(10, &src, &dst, c, 0.0f);
