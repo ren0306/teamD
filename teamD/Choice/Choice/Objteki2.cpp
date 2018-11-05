@@ -82,8 +82,8 @@ void CObjteki2::Draw()
 	//表示位置の設定
 	dst.m_top = 0.0f + m_y;
 	dst.m_left = 0.0f + m_x;
-	dst.m_right = 400.0f + m_x;
-	dst.m_bottom = 260.0f + m_y;
+	dst.m_right = 200.0f + m_x;
+	dst.m_bottom = 160.0f + m_y;
 
 	//0番めに登録したグラフィックをsrc・dst・cの情報を元に描画
 	Draw::Draw(10, &src, &dst, c, 0.0f);

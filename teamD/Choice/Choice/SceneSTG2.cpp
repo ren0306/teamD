@@ -14,6 +14,7 @@ using namespace GameL;
 #include "Objteki2.h"
 #include "SceneSTG2.h"
 #include "GameHead.h"
+#include "ObjHero.h"
 
 //コンストラクタ
 CSceneSTG2::CSceneSTG2()
@@ -34,7 +35,7 @@ void CSceneSTG2::InitScene()
 	Objs::InsertObj(obj, OBJ_STG, 10);
 
 	//外部グラフィックファイルを読み込み0番に登録
-	Draw::LoadImageW(L"dou.png", 0, TEX_SIZE_512);
+	Draw::LoadImageW(L"ss01.png", 0, TEX_SIZE_512);
 
 	CObjMain* m = new CObjMain();
 	Objs::InsertObj(m, OBJ_STG3, 10);
@@ -47,6 +48,12 @@ void CSceneSTG2::InitScene()
 
 	CObjteki2* objb = new CObjteki2(200, 10);
 	Objs::InsertObj(objb, OBJ_TEKI2, 50);
+
+	//外部グラフィックファイルを読み込み1番に登録
+	Draw::LoadImageW(L"hero.png", 1, TEX_SIZE_512);
+
+	CObjHero*ob = new CObjHero();
+	Objs::InsertObj(ob, OBJ_HERO, 150);
 }
 
 //ゲームタイトル実行中メソッド
