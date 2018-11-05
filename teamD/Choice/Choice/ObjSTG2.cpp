@@ -5,25 +5,25 @@
 #include "GameL\SceneManager.h"
 
 #include "GameHead.h"
-#include "ObjTitle.h"
+#include "ObjSTG2.h"
 #include "SceneMain.h"
+#include "SceneSTG2.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //イニシャライズ
-void CObjTitle::Init()
+void CObjSTG2::Init()
 {
 
 	m_mou_x = 0.0f;
 	m_mou_y = 0.0f;
 	m_mou_r = false;
 	m_mou_l = false;
-	m_and = 1.0f;
 }
 
 //アクション
-void CObjTitle::Action()
+void CObjSTG2::Action()
 {
 	//マウスの位置を取得
 	m_mou_x = (float)Input::GetPosX();
@@ -35,27 +35,22 @@ void CObjTitle::Action()
 	if (m_mou_x > 400 && m_mou_x < 620 && m_mou_y>390 && m_mou_y < 430)
 	{
 		//マウスのボタンが押されたらメインに遷移
-		if ( m_mou_l == true)
-		
-			//for (; m_and==0;)
-			
-				m_and -= 0.1f;
-			
-			//if(m_and==0)
+		if (m_mou_r == true || m_mou_l == true)
+		{
 			Scene::SetScene(new CSceneMain());
-		
+		}
 	}
 
 }
 
 //ドロー
-void CObjTitle::Draw()
+void CObjSTG2::Draw()
 {
-	float c[4] = { 1,1,1,m_and };
+	float c[4] = { 1,1,1,1 };
 	//仮マウス位置表示
 	wchar_t str[256];
 	swprintf_s(str, L"x=%f,y=%f", m_mou_x, m_mou_y);
-	Font::StrDraw(str, 20, 20, 12,c);
-	Font::StrDraw(L"ゲームを始める", 400, 400, 32, c);
+	Font::StrDraw(str, 20, 20, 12, c);
+
 
 }

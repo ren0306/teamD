@@ -5,11 +5,11 @@
 using namespace GameL;
 
 //オブジェクト：タイトル
-class CObjTitle :public CObj
+class CObjSTG2 :public CObj
 {
-public :
-	CObjTitle() {};
-	~CObjTitle() {};
+public:
+	CObjSTG2() {};
+	~CObjSTG2() {};
 	void Init();		//イニシャライズ
 	void Action();		//アクション
 	void Draw();		//ドロー
@@ -18,6 +18,5 @@ private:
 	float m_mou_y;
 	bool m_mou_r;
 	bool m_mou_l;
-	float m_and=1;
 
 };
