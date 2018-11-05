@@ -3,21 +3,21 @@
 #include "GameL\HitBoxManager.h"
 
 #include "GameHead.h"
-#include "ObjEnemy2.h"
+#include "ObjEnemy1.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //コンストラクタ
-CObjEnemy2::CObjEnemy2(float x, float y)
+CObjEnemy1::CObjEnemy2(float x, float y)
 {
 	m_x = x;
 	m_y = y;
 }
 
 //イニシャライズ
-void CObjEnemy2::Init()
+void CObjEnemy1::Init()
 {
 	m_hp = 30;
 	m_atk = 2;
@@ -32,7 +32,7 @@ void CObjEnemy2::Init()
 }
 
 //アクション
-void CObjEnemy2::Action()
+void CObjEnemy1::Action()
 {
 	m_time++;
 
@@ -107,7 +107,7 @@ void CObjEnemy2::Action()
 }
 
 //ドロー
-void CObjEnemy2::Draw()
+void CObjEnemy1::Draw()
 {
 	// 描画カラー情報  R = RED  G = Green  B = Blue A = alpha(透過情報)
 	float  c[4] = { 1.0f,1.0f,1.0f,1.0f };
