@@ -3,7 +3,7 @@
 #include "GameL\HitBoxManager.h"
 
 #include "GameHead.h"
-#include "ObjEnemy2.h"
+#include "ObjEnemy1.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース

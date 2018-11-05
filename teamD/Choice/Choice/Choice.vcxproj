@@ -136,7 +136,7 @@
     <ClCompile Include="ObjED1.cpp" />
     <ClCompile Include="ObjED3.cpp" />
     <ClCompile Include="ObjED2.cpp" />
-    <ClCompile Include="ObjEnemy2.cpp" />
+    <ClCompile Include="ObjEnemy1.cpp" />
     <ClCompile Include="ObjHero.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -187,7 +187,7 @@
     <ClInclude Include="ObjED3.h" />
     <ClInclude Include="ObjBackGround.h" />
     <ClInclude Include="ObjED2.h" />
-    <ClInclude Include="ObjEnemy2.h" />
+    <ClInclude Include="ObjEnemy1.h" />
     <ClInclude Include="ObjHero.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
