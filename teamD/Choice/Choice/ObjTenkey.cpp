@@ -164,7 +164,7 @@ void CObjTenkey::flag()
 	}
 	if (cnt == 1)
 	{
-		DF += 0;
+		;
 	}
 	//それぞれの数字のボタンをクリックしたときのフラグ
 	if (m_flag_1 == true)
