@@ -121,6 +121,18 @@
     <ClCompile Include="ObjEnemy1.cpp">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClCompile>
+    <ClCompile Include="ObjEnemy2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GameL\Audio.h">
@@ -245,6 +257,18 @@
     </ClInclude>
     <ClInclude Include="ObjEnemy1.h">
       <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
