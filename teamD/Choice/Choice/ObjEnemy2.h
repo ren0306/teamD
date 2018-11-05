@@ -10,6 +10,8 @@ class CObjEnemy2 : public CObj
 	public:
 		CObjEnemy2(float x, float y);//コンストラクタ位置情報をもらう
 		~CObjEnemy2() {};
+		CObjEnemy2();
+		int  m_atk; //ボスの攻撃力
 		void Init();	//イニシャライズ
 		void Action();  //アクション
 		void Draw();	//ドロー
@@ -20,6 +22,5 @@ class CObjEnemy2 : public CObj
 		float m_vy; //ボス機移動ベクトルY
 		float m_r;	//サインカーブ用の角度
 		int   m_time;//弾丸間隔用
-		int   m_hp; //ボスのヒットポイント
-		int   m_atk; //ボスの攻撃力
+		int   m_hp;//ボスのヒットポイント
 };

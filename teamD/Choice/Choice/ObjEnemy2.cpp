@@ -36,7 +36,6 @@ void CObjEnemy2::Action()
 {
 	m_time++;
 
-	/*
 	//’Êí’e”­ŽË
 	if ( m_time % 50 == 0 )
 	{
@@ -44,7 +43,6 @@ void CObjEnemy2::Action()
 		CObjBulletEnemy* obj_b=new CObjBulletEnemy(m_x+68, m_y+114);
 		Objs::InsertObj(obj_b, OBJ_BULLET_ENEMY, 100);
 	}
-	*/
 
 	//m_time‚Ì‰Šú‰»
 	if ( m_time > 1000 )
