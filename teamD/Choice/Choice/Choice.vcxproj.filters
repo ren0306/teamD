@@ -155,6 +155,18 @@
     <ClCompile Include="SceneSTG.cpp" />
     <ClCompile Include="SceneSTG2.cpp" />
     <ClCompile Include="SceneSTG3.cpp" />
+    <ClCompile Include="ObjSTG4.cpp">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki4.cpp">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG4.cpp">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy4.cpp">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClCompile>
     <ClCompile Include="ShootingMain.cpp">
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
@@ -307,6 +319,18 @@
     <ClInclude Include="ShootingMain.h">
       <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
+    <ClInclude Include="ObjSTG4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
     <ClInclude Include="ObjEnemy1.h" />
     <ClInclude Include="ObjEnemy2.h" />
     <ClInclude Include="ObjEnemy3.h" />
@@ -329,6 +353,15 @@
     </Filter>
     <Filter Include="ソースファイル\シューティング">
       <UniqueIdentifier>{3a757d8a-ac74-44c5-84c3-124bf45a0f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\タイトル">
+      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki3">
+      <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki4">
+      <UniqueIdentifier>{9494fb15-687a-4768-b570-1626d4d58d01}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
