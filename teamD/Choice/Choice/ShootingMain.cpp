@@ -77,9 +77,9 @@ void CShootingMain::Scene()
 
 	if (m_time == 1)
 	{
-		CObjEnemy2* obj;
-		obj = new CObjEnemy2(400, 200);
-		Objs::InsertObj(obj, OBJ_ENEMY2, 50);
+		CObjEnemy1* obj;
+		obj = new CObjEnemy1(400, 200);
+		Objs::InsertObj(obj, OBJ_ENEMY1, 50);
 	}
 
 	/*

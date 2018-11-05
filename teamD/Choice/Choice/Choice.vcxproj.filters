@@ -112,14 +112,26 @@
     <ClCompile Include="ObjTitle.cpp">
       <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClCompile>
+    <ClCompile Include="Objteki3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy1.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEnemy3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClCompile>
     <ClCompile Include="SceneSTG.cpp">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClCompile>
     <ClCompile Include="ObjSTG.cpp">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClCompile>
-    <ClCompile Include="ObjEnemy1.cpp">
-      <Filter>ソースファイル\シューティング\teki1</Filter>
+    <ClCompile Include="SceneSTG3.cpp">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
     </ClCompile>
     <ClCompile Include="ObjEnemy2.cpp">
       <Filter>ソースファイル\シューティング\teki2</Filter>
@@ -249,14 +261,26 @@
     <ClInclude Include="SceneTitle.h">
       <Filter>ソースファイル\シューティング\タイトル</Filter>
     </ClInclude>
+    <ClInclude Include="Objteki3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy1.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
+    </ClInclude>
     <ClInclude Include="SceneSTG.h">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClInclude>
     <ClInclude Include="ObjSTG.h">
       <Filter>ソースファイル\シューティング\teki1</Filter>
     </ClInclude>
-    <ClInclude Include="ObjEnemy1.h">
-      <Filter>ソースファイル\シューティング\teki1</Filter>
+    <ClInclude Include="SceneSTG3.h">
+      <Filter>ソースファイル\シューティング\teki3</Filter>
     </ClInclude>
     <ClInclude Include="ObjEnemy2.h">
       <Filter>ソースファイル\シューティング\teki2</Filter>
@@ -302,8 +326,8 @@
     <Filter Include="ソースファイル\シューティング\タイトル">
       <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソースファイル\シューティング\teki2">
-      <UniqueIdentifier>{0ece5421-34d8-488a-9d7d-043b593df7ca}</UniqueIdentifier>
+    <Filter Include="ソースファイル\シューティング\teki3">
+      <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
