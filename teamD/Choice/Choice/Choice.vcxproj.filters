@@ -104,6 +104,9 @@
     <ClCompile Include="SceneMain.cpp">
       <Filter>ソースファイル\ゲームメイン</Filter>
     </ClCompile>
+    <ClCompile Include="UtilityModule.cpp">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClCompile>
     <ClCompile Include="SceneTitle.cpp">
       <Filter>ソースファイル\タイトル</Filter>
     </ClCompile>
@@ -148,6 +151,9 @@
     </ClCompile>
     <ClCompile Include="SceneNazo.cpp">
       <Filter>ソースファイル\謎解き関係</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjBackGround.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -256,6 +262,18 @@
     <ClInclude Include="SceneMain.h">
       <Filter>ソースファイル\ゲームメイン</Filter>
     </ClInclude>
+    <ClInclude Include="CObjBullet.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjHero.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityModule.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
     <ClInclude Include="SceneTitle.h">
       <Filter>ソースファイル\タイトル</Filter>
     </ClInclude>
@@ -301,6 +319,9 @@
     <ClInclude Include="SceneSTG2.h">
       <Filter>ソースファイル\シューティング\teki2</Filter>
     </ClInclude>
+    <ClInclude Include="ObjBackGround.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="ソースファイル">
@@ -338,6 +359,9 @@
     </Filter>
     <Filter Include="ソースファイル\シューティング\teki3">
       <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki2">
+      <UniqueIdentifier>{caec97bc-5c6f-41f9-849a-6ff772870a25}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
