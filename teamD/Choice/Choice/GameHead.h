@@ -10,6 +10,7 @@ enum OBJ_NAME
 	OBJ_HERO,
 	OBJ_BULLET,
 	OBJ_ENEMY1,
+	OBJ_ENEMY2,
 	OBJ_ENEMY3,
 	OBJ_ENEMY4,
 	OBJ_BULLET_ENEMY,
@@ -23,6 +24,7 @@ enum OBJ_NAME
 	OBJ_NAZO,
 	OBJ_TENKEY,
 	OBJ_TEKI1,
+	OBJ_TEKI2,
 	OBJ_STG,
 	OBJ_STG3,
 	OBJ_STG4,
@@ -74,6 +76,7 @@ struct UserData
 #include "ObjHero.h"
 #include "CObjBullet.h"
 #include "ObjEnemy1.h"
+#include "ObjEnemy2.h"
 #include "ObjEnemy3.h"
 #include "ObjEnemy4.h"
 #include "CObjBullteEnemy.h"
@@ -87,7 +90,9 @@ struct UserData
 #include "ObjED3.h"
 #include "ObjTenkey.h"
 #include "Objteki1.h"
+#include "Objteki2.h"
 #include "ObjSTG.h"
+#include "ObjSTG2.h"
 #include "ObjSTG3.h"
 #include "ObjSTG4.h"
 
@@ -105,10 +110,11 @@ struct UserData
 #include "SceneNazo.h"
 #include "SceneSTG.h"
 #include "SceneSTG3.h"
+#include "SceneSTG2.h"
 #include "SceneSTG4.h"
 //-----------------------------------------------
 
 //シーンスタートクラス---------------------------
 //ゲーム開始時のシーンクラス登録
-#define SET_GAME_START CSceneSTG4
+#define SET_GAME_START CSceneTitle
 //-----------------------------------------------
