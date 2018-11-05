@@ -70,7 +70,7 @@ struct UserData
 //ゲームシーンオブジェクトヘッダ------------------
 #include "ObjHero.h"
 #include "CObjBullet.h"
-#include "ObjEnemy2.h"
+#include "ObjEnemy1.h"
 #include "CObjBullteEnemy.h"
 #include "ObjTitle.h"
 #include "ObjMain.h"
