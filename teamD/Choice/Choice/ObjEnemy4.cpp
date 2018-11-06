@@ -3,21 +3,21 @@
 #include "GameL\HitBoxManager.h"
 
 #include "GameHead.h"
-#include "ObjEnemy2.h"
+#include "ObjEnemy4.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //コンストラクタ
-CObjEnemy2::CObjEnemy2(float x, float y)
+CObjEnemy4::CObjEnemy4(float x, float y)
 {
 	m_x = x;
 	m_y = y;
 }
 
 //イニシャライズ
-void CObjEnemy2::Init()
+void CObjEnemy4::Init()
 {
 	m_hp = 30;
 	m_atk = 2;
@@ -27,15 +27,16 @@ void CObjEnemy2::Init()
 	m_vy = 0.0f;
 
 	//当たり判定用HitBoxを作成
-	Hits::SetHitBox(this, m_x, m_y, 150, 150, ELEMENT_ENEMY, OBJ_ENEMY2, 1);
+	Hits::SetHitBox(this, m_x, m_y, 150, 150, ELEMENT_ENEMY, OBJ_ENEMY4, 1);
 
 }
 
 //アクション
-void CObjEnemy2::Action()
+void CObjEnemy4::Action()
 {
 	m_time++;
 
+	/*
 	//通常弾発射
 	if ( m_time % 50 == 0 )
 	{
@@ -43,6 +44,7 @@ void CObjEnemy2::Action()
 	CObjBulletEnemy* obj_b=new CObjBulletEnemy(m_x+68, m_y+114);
 	Objs::InsertObj(obj_b, OBJ_BULLET_ENEMY, 100);
 	}
+	*/
 
 	//m_timeの初期化
 	if (m_time > 1000)
@@ -105,7 +107,7 @@ void CObjEnemy2::Action()
 }
 
 //ドロー
-void CObjEnemy2::Draw()
+void CObjEnemy4::Draw()
 {
 	// 描画カラー情報  R = RED  G = Green  B = Blue A = alpha(透過情報)
 	float  c[4] = { 1.0f,1.0f,1.0f,1.0f };
