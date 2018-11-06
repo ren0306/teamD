@@ -234,9 +234,6 @@
     <ClInclude Include="ObjSTG.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="Objteki1.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
     <ClInclude Include="Objteki2.h" />
     <ClInclude Include="Objteki3.h" />
     <ClInclude Include="Objteki4.h" />
