@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp" />
+    <ClCompile Include="ObjSTG.cpp" />
+    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="SceneSTG.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
     <ClCompile Include="GameL\Audio.cpp">
       <Filter>リソースファイル</Filter>
     </ClCompile>
@@ -210,6 +227,28 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h" />
+    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjSTG.h" />
+    <ClInclude Include="CObjBullet.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjBullteEnemy.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
     <ClInclude Include="GameL\Audio.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
@@ -271,8 +310,8 @@
     <ClInclude Include="CObjBullet.h">
       <Filter>ソースファイル\シューティング\Bullet</Filter>
     </ClInclude>
-    <ClInclude Include="CObjBullteEnemy.h">
-      <Filter>ソースファイル\シューティング\Bullet</Filter>
+    <ClInclude Include="シューティング\ObjSTG3.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="Objteki2.h" />
     <ClInclude Include="Objteki3.h" />
@@ -291,29 +330,29 @@
     <ClInclude Include="ObjEnemy4.h">
       <Filter>ソースファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ObjSTG4.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\Objteki3.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="Objteki4.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\Objteki4.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="SceneSTG4.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\SceneSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="CObjBullet.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\SceneSTG2.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="CObjBullteEnemy.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\SceneSTG3.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="ObjEnemy2.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\SceneSTG4.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="ObjHero.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\UtilityModule.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
-    <ClInclude Include="ObjSTG.h">
-      <Filter>ソースファイル</Filter>
+    <ClInclude Include="シューティング\ShootingMain.h">
+      <Filter>ソースファイル\シューティング</Filter>
     </ClInclude>
     <ClInclude Include="UtilityModule.h">
       <Filter>ソースファイル</Filter>

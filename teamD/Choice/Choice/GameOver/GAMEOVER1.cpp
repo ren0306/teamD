@@ -1,8 +1,8 @@
 //使用するヘッダーファイル
-#include "GameL\DrawFont.h"
-#include "GameL\WinInputs.h"
+#include "../GameL\DrawFont.h"
+#include "../GameL\WinInputs.h"
 
-#include "GameHead.h"
+#include "../GameHead.h"
 #include "GAMEOVER1.h"
 
 //使用するネームスペース

@@ -18,6 +18,121 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ED\ObjED1.cpp" />
+    <ClCompile Include="ED\ObjED2.cpp" />
+    <ClCompile Include="ED\ObjED3.cpp" />
+    <ClCompile Include="ED\SceneED1.cpp" />
+    <ClCompile Include="ED\SceneED2.cpp" />
+    <ClCompile Include="ED\SceneED3.cpp" />
+    <ClCompile Include="GameL\Audio.cpp" />
+    <ClCompile Include="GameL\DirectXDevice.cpp" />
+    <ClCompile Include="GameL\Draw2DTex_Source.cpp" />
+    <ClCompile Include="GameL\DrawFont.cpp" />
+    <ClCompile Include="GameL\DrawTexture.cpp" />
+    <ClCompile Include="GameL\GameL_Main.cpp" />
+    <ClCompile Include="GameL\HitBoxManager.cpp" />
+    <ClCompile Include="GameL\MultiThread.cpp" />
+    <ClCompile Include="GameL\SceneManager.cpp" />
+    <ClCompile Include="GameL\SceneObjManager.cpp" />
+    <ClCompile Include="GameL\SetWindow.cpp" />
+    <ClCompile Include="GameL\UserData.cpp" />
+    <ClCompile Include="GameL\WICTextureLoader.cpp" />
+    <ClCompile Include="GameL\WinInputs.cpp" />
+    <ClCompile Include="GameOver\Game Over.cpp" />
+    <ClCompile Include="GameOver\GAME OVER2.cpp" />
+    <ClCompile Include="GameOver\GAMEOVER1.cpp" />
+    <ClCompile Include="GameOver\GameOver2.cpp" />
+    <ClCompile Include="ゲームメイン\ObjBackGround.cpp" />
+    <ClCompile Include="ゲームメイン\ObjMain.cpp" />
+    <ClCompile Include="ゲームメイン\SceneMain.cpp" />
+    <ClCompile Include="シューティング\CObjBullet.cpp" />
+    <ClCompile Include="シューティング\CObjBullteEnemy.cpp" />
+    <ClCompile Include="シューティング\ObjEnemy1.cpp" />
+    <ClCompile Include="シューティング\ObjEnemy2.cpp" />
+    <ClCompile Include="シューティング\ObjEnemy3.cpp" />
+    <ClCompile Include="シューティング\ObjEnemy4.cpp" />
+    <ClCompile Include="シューティング\ObjHero.cpp" />
+    <ClCompile Include="シューティング\ObjSTG.cpp" />
+    <ClCompile Include="シューティング\ObjSTG2.cpp" />
+    <ClCompile Include="シューティング\ObjSTG3.cpp" />
+    <ClCompile Include="シューティング\ObjSTG4.cpp" />
+    <ClCompile Include="シューティング\Objteki1.cpp" />
+    <ClCompile Include="シューティング\Objteki2.cpp" />
+    <ClCompile Include="シューティング\Objteki3.cpp" />
+    <ClCompile Include="シューティング\Objteki4.cpp" />
+    <ClCompile Include="シューティング\SceneSTG.cpp" />
+    <ClCompile Include="シューティング\SceneSTG2.cpp" />
+    <ClCompile Include="シューティング\SceneSTG3.cpp" />
+    <ClCompile Include="シューティング\SceneSTG4.cpp" />
+    <ClCompile Include="シューティング\ShootingMain.cpp" />
+    <ClCompile Include="シューティング\UtilityModule.cpp" />
+    <ClCompile Include="タイトル\ObjTitle.cpp" />
+    <ClCompile Include="タイトル\SceneTitle.cpp" />
+    <ClCompile Include="謎解き\ObjTenkey.cpp" />
+    <ClCompile Include="謎解き\SceneNazo.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ED\ObjED1.h" />
+    <ClInclude Include="ED\ObjED2.h" />
+    <ClInclude Include="ED\ObjED3.h" />
+    <ClInclude Include="ED\SceneED1.h" />
+    <ClInclude Include="ED\SceneED2.h" />
+    <ClInclude Include="ED\SceneED3.h" />
+    <ClInclude Include="GameHead.h" />
+    <ClInclude Include="GameL\Audio.h" />
+    <ClInclude Include="GameL\DirectXDevice.h" />
+    <ClInclude Include="GameL\DirectXTex.h" />
+    <ClInclude Include="GameL\DrawFont.h" />
+    <ClInclude Include="GameL\DrawTexture.h" />
+    <ClInclude Include="GameL\HitBoxManager.h" />
+    <ClInclude Include="GameL\MultiThread.h" />
+    <ClInclude Include="GameL\SceneManager.h" />
+    <ClInclude Include="GameL\SceneObjManager.h" />
+    <ClInclude Include="GameL\SetWindow.h" />
+    <ClInclude Include="GameL\UserData.h" />
+    <ClInclude Include="GameL\WICTextureLoader.h" />
+    <ClInclude Include="GameL\WinInputs.h" />
+    <ClInclude Include="GameOver\GAME OVER2.h" />
+    <ClInclude Include="GameOver\GameOver.h" />
+    <ClInclude Include="GameOver\GAMEOVER1.h" />
+    <ClInclude Include="GameOver\GameOver2.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="ゲームメイン\ObjBackGround.h" />
+    <ClInclude Include="ゲームメイン\ObjMain.h" />
+    <ClInclude Include="ゲームメイン\SceneMain.h" />
+    <ClInclude Include="シューティング\CObjBullet.h" />
+    <ClInclude Include="シューティング\CObjBullteEnemy.h" />
+    <ClInclude Include="シューティング\ObjEnemy1.h" />
+    <ClInclude Include="シューティング\ObjEnemy2.h" />
+    <ClInclude Include="シューティング\ObjEnemy3.h" />
+    <ClInclude Include="シューティング\ObjEnemy4.h" />
+    <ClInclude Include="シューティング\ObjHero.h" />
+    <ClInclude Include="シューティング\ObjSTG.h" />
+    <ClInclude Include="シューティング\ObjSTG2.h" />
+    <ClInclude Include="シューティング\ObjSTG3.h" />
+    <ClInclude Include="シューティング\ObjSTG4.h" />
+    <ClInclude Include="シューティング\Objteki1.h" />
+    <ClInclude Include="シューティング\Objteki2.h" />
+    <ClInclude Include="シューティング\Objteki3.h" />
+    <ClInclude Include="シューティング\Objteki4.h" />
+    <ClInclude Include="シューティング\SceneSTG.h" />
+    <ClInclude Include="シューティング\SceneSTG2.h" />
+    <ClInclude Include="シューティング\SceneSTG3.h" />
+    <ClInclude Include="シューティング\SceneSTG4.h" />
+    <ClInclude Include="シューティング\ShootingMain.h" />
+    <ClInclude Include="シューティング\UtilityModule.h" />
+    <ClInclude Include="タイトル\ObjTitle.h" />
+    <ClInclude Include="タイトル\SceneTitle.h" />
+    <ClInclude Include="謎解き\ObjTenkey.h" />
+    <ClInclude Include="謎解き\SceneNazo.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="GameL\DirectXTex.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="GameL\DirectXTex.lib" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{3187FEC9-992A-4DEF-BFCD-1E403CFEEDAF}</ProjectGuid>
     <RootNamespace>Choice</RootNamespace>

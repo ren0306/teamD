@@ -3,16 +3,16 @@
 #define _HAS_ITERATOR_DEBUGGING (0)
 
 //GameLで使用するヘッダー
-#include "GameL\SceneObjManager.h"
-#include "GameL\DrawFont.h"
+#include "../GameL\SceneObjManager.h"
+#include "../GameL\DrawFont.h"
 
 //使用するネームスペース
 using namespace GameL;
 
 //使用ヘッダー
-#include "SceneMain.h"
+#include "../ゲームメイン/SceneMain.h"
 #include "SceneED2.h"
-#include "GameHead.h"
+#include "../GameHead.h"
 
 //コンストラクタ
 CSceneED2::CSceneED2()
