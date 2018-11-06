@@ -70,6 +70,7 @@ void CObjBackGround::Draw()
 	dst.m_bottom = 600.0f;
 	Draw::Draw(0, &src, &dst, d, 0.0f);
 
+	//シューティング
 	float q[4] = { 1.0f,1.0f,01.0f,1.0f };
 
 	src.m_top = 0.0f;
