@@ -5,10 +5,17 @@
 #include "GameL\Audio.h"
 #include "GameHead.h"
 #include "ObjHero.h"
+#include "ObjEnemy2.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース
 using namespace GameL;
+
+//コンストラクタ
+CObjEnemy2::CObjEnemy2()
+{
+	m_atk;
+}
 
 //位置情報X変更用
 void CObjHero::SetX(float x)
@@ -33,14 +40,6 @@ float CObjHero::GetY()
 {
 	return m_y;
 }
-
-/*
-//敵攻撃力取得用
-int CObjHero::EnemyATK()
-{
-	 = ;
-}
-*/
 
 //イニシャライズ
 void CObjHero::Init()
@@ -151,7 +150,7 @@ void CObjHero::Action()
 	//ELEMENT_ENEMYを持つオブジェクトと接触したらHPを減らす
 	if (hit->CheckElementHit(ELEMENT_ENEMY) == true)
 	{
-		//m_hp -= 敵の攻撃力;
+//		m_hp -= m_atk;
 	}
 
 	//HPが0になったら破棄
