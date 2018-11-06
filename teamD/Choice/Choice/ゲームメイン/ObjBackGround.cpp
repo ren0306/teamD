@@ -1,13 +1,13 @@
 //使用するヘッダー
-#include "GameL\DrawTexture.h"
-#include "GameL\WinInputs.h"
-#include "GameL\DrawFont.h"
-#include "GameL\SceneObjManager.h"
-#include "GameL\SceneManager.h"
+#include "../GameL\DrawTexture.h"
+#include "../GameL\WinInputs.h"
+#include "../GameL\DrawFont.h"
+#include "../GameL\SceneObjManager.h"
+#include "../GameL\SceneManager.h"
 
 #include "ObjBackGround.h"
 #include "SceneMain.h"
-#include "GameHead.h"
+#include "../GameHead.h"
 
 
 

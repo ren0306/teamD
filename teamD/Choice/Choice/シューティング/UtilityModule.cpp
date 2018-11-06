@@ -1,6 +1,6 @@
 //使用するヘッダー
 #include "math.h" //数学計算ヘッダー
-#include "GameL\DrawTexture.h"
+#include "../GameL\DrawTexture.h"
 //使用するネームスペース
 using namespace GameL;
 
