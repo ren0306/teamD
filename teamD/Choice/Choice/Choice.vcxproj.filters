@@ -46,6 +46,27 @@
     <ClCompile Include="ObjBackGround.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル\シューティング\teki</Filter>
+    </ClCompile>
+    <ClCompile Include="Game Over.cpp">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GAME OVER2.cpp">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GAMEOVER1.cpp">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver2.cpp">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED1.cpp">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjED2.cpp">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClCompile>
     <ClCompile Include="ObjMain.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
@@ -88,15 +109,9 @@
     <ClCompile Include="UtilityModule.cpp">
       <Filter>ソースファイル\シューティング</Filter>
     </ClCompile>
-    <ClCompile Include="ObjEnemy1.cpp" />
-    <ClCompile Include="ObjEnemy3.cpp" />
     <ClCompile Include="ObjEnemy2.cpp" />
-    <ClCompile Include="ObjSTG2.cpp" />
-    <ClCompile Include="ObjSTG3.cpp" />
     <ClCompile Include="ObjSTG.cpp" />
     <ClCompile Include="Objteki1.cpp" />
-    <ClCompile Include="Objteki2.cpp" />
-    <ClCompile Include="Objteki3.cpp" />
     <ClCompile Include="SceneSTG.cpp" />
     <ClCompile Include="SceneSTG2.cpp" />
     <ClCompile Include="SceneSTG3.cpp" />
@@ -205,6 +220,38 @@
     <ClInclude Include="ObjBackGround.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
+    <ClInclude Include="Objteki1.h">
+      <Filter>ソースファイル\シューティング\teki</Filter>
+    </ClInclude>
+    <ClInclude Include="GAME OVER2.h">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver.h">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GAMEOVER1.h">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver2.h">
+      <Filter>ソースファイル\GameOver</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED1.h">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED3.h">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjED2.h">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED1.h">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED3.h">
+      <Filter>ソースファイル\エンディング</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneED2.h">
+      <Filter>ソースファイル\エンディング</Filter>
     <ClInclude Include="ObjMain.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
@@ -244,12 +291,54 @@
       <Filter>ソースファイル\謎解き関係</Filter>
     </ClInclude>
     <ClInclude Include="ObjEnemy1.h" />
+    <ClInclude Include="ObjSTG4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy4.h">
+      <Filter>ソースファイル\シューティング\teki4</Filter>
+    </ClInclude>
     <ClInclude Include="ObjEnemy2.h" />
-    <ClInclude Include="ObjEnemy3.h" />
-    <ClInclude Include="ObjSTG2.h" />
-    <ClInclude Include="ObjSTG3.h" />
     <ClInclude Include="ObjSTG.h" />
     <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjEnemy1.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy3.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG2.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG3.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneSTG.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjBullet.h">
+      <Filter>ソースファイル\シューティング\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjBullteEnemy.h">
+      <Filter>ソースファイル\シューティング\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki2.h">
+      <Filter>ソースファイル\シューティング\teki</Filter>
+    </ClInclude>
+    <ClInclude Include="Objteki3.h">
+      <Filter>ソースファイル\シューティング\teki</Filter>
+    </ClInclude>
     <ClInclude Include="Objteki2.h" />
     <ClInclude Include="Objteki3.h" />
     <ClInclude Include="GAME OVER2.h" />
@@ -313,8 +402,28 @@
     <Filter Include="リソースファイル">
       <UniqueIdentifier>{abc39fff-a87f-49da-985e-a59018175b51}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ヘッダーファイル">
-      <UniqueIdentifier>{16e9a129-79ff-494a-82f1-7aa272afcd28}</UniqueIdentifier>
+    <Filter Include="ソースファイル\シューティング">
+      <UniqueIdentifier>{3a757d8a-ac74-44c5-84c3-124bf45a0f50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\タイトル">
+      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki3">
+      <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki4">
+      <UniqueIdentifier>{9494fb15-687a-4768-b570-1626d4d58d01}</UniqueIdentifier>
+    <Filter Include="ソースファイル\シューティング\Enemy">
+      <UniqueIdentifier>{ae389531-eac9-4983-bc26-2811b8a5f804}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\STG">
+      <UniqueIdentifier>{9e5cfe8f-c569-4f13-a65d-7ebf7c89d099}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\Bullet">
+      <UniqueIdentifier>{d136e73a-e10e-4351-9195-e9155a7ec438}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki">
+      <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
