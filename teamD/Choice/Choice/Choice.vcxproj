@@ -234,9 +234,6 @@
     <ClInclude Include="SceneSTG.h" />
     <ClInclude Include="SceneSTG3.h" />
     <ClInclude Include="SceneSTG4.h" />
-    <ClInclude Include="SceneSTG.h">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClInclude>
     <ClInclude Include="SceneTitle.h" />
     <ClInclude Include="ShootingMain.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
