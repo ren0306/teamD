@@ -237,12 +237,6 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameHead.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
     <ClInclude Include="ED\ObjED1.h">
       <Filter>ソースファイル</Filter>
     </ClInclude>
@@ -356,6 +350,12 @@
     </ClInclude>
     <ClInclude Include="シューティング\ShootingMain.h">
       <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="GameHead.h">
+      <Filter>ヘッダーファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>ヘッダーファイル</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

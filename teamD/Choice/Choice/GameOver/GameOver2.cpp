@@ -11,8 +11,6 @@
 using namespace GameL;
 
 //使用ヘッダー
-#include "main.h"
-#include "GameHead.h"
 
 //コンストラクタ
 CSceneGameOver2::CSceneGameOver2()
