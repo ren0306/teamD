@@ -250,8 +250,6 @@
     <ClInclude Include="SceneED3.h">
       <Filter>ソースファイル\エンディング</Filter>
     </ClInclude>
-    <ClInclude Include="SceneED2.h">
-      <Filter>ソースファイル\エンディング</Filter>
     <ClInclude Include="ObjMain.h">
       <Filter>ヘッダーファイル</Filter>
     </ClInclude>
@@ -413,6 +411,8 @@
     </Filter>
     <Filter Include="ソースファイル\シューティング\teki4">
       <UniqueIdentifier>{9494fb15-687a-4768-b570-1626d4d58d01}</UniqueIdentifier>
+    </Filter>
+
     <Filter Include="ソースファイル\シューティング\Enemy">
       <UniqueIdentifier>{ae389531-eac9-4983-bc26-2811b8a5f804}</UniqueIdentifier>
     </Filter>
