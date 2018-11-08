@@ -28,7 +28,7 @@ CSceneSTG::~CSceneSTG()
 //ゲームタイトル初期化メソッド
 void CSceneSTG::InitScene()
 {
-//外部グラフィックファイルを読み込み1番に登録
+	//teki1を読み込み1番に登録
 	Draw::LoadImageW(L"teki1.png", 10, TEX_SIZE_512);
 
 	//主人公を読み込み1番に登録
