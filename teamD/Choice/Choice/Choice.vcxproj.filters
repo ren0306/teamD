@@ -1,6 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp" />
+    <ClCompile Include="ObjSTG.cpp" />
+    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="SceneSTG.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
     <ClCompile Include="GameL\Audio.cpp">
       <Filter>リソースファイル</Filter>
     </ClCompile>
@@ -34,9 +51,6 @@
     <ClCompile Include="GameL\SetWindow.cpp">
       <Filter>リソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ShootingMain.cpp">
-      <Filter>リソースファイル</Filter>
-    </ClCompile>
     <ClCompile Include="GameL\UserData.cpp">
       <Filter>リソースファイル</Filter>
     </ClCompile>
@@ -46,107 +60,195 @@
     <ClCompile Include="GameL\WinInputs.cpp">
       <Filter>リソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjBackGround.cpp">
-      <Filter>ソースファイル</Filter>
-    </ClCompile>
-    <ClCompile Include="Objteki1.cpp">
-      <Filter>ソースファイル\シューティング\teki1</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneSTG.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjSTG.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="CObjBullet.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="CObjBullteEnemy.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjEnemy2.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="Game Over.cpp">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClCompile>
-    <ClCompile Include="GAME OVER2.cpp">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClCompile>
-    <ClCompile Include="GAMEOVER1.cpp">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClCompile>
-    <ClCompile Include="GameOver2.cpp">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjED1.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjED2.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjED3.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneED1.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneED2.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="SceneED3.cpp">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjHero.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
-    <ClCompile Include="UtilityModule.cpp">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClCompile>
     <ClCompile Include="ObjMain.cpp">
       <Filter>ソースファイル\ゲームメイン</Filter>
     </ClCompile>
-    <ClCompile Include="SceneMain.cpp">
-      <Filter>ソースファイル\ゲームメイン</Filter>
-    </ClCompile>
+    <ClCompile Include="Objteki1.cpp" />
     <ClCompile Include="SceneTitle.cpp">
       <Filter>ソースファイル\タイトル</Filter>
     </ClCompile>
     <ClCompile Include="ObjTitle.cpp">
       <Filter>ソースファイル\タイトル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjTenkey.cpp">
-      <Filter>ソースファイル\謎解き関係</Filter>
-    </ClCompile>
     <ClCompile Include="SceneNazo.cpp">
       <Filter>ソースファイル\謎解き関係</Filter>
     </ClCompile>
-    <ClCompile Include="ObjEnemy1.cpp" />
-    <ClCompile Include="ObjEnemy3.cpp" />
     <ClCompile Include="ObjEnemy2.cpp" />
-    <ClCompile Include="ObjSTG2.cpp" />
-    <ClCompile Include="ObjSTG3.cpp" />
     <ClCompile Include="ObjSTG.cpp" />
     <ClCompile Include="Objteki1.cpp" />
-    <ClCompile Include="Objteki2.cpp" />
-    <ClCompile Include="Objteki3.cpp" />
     <ClCompile Include="SceneSTG.cpp" />
-    <ClCompile Include="SceneSTG2.cpp" />
-    <ClCompile Include="SceneSTG3.cpp" />
-    <ClCompile Include="ObjSTG4.cpp">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
+    <ClCompile Include="Game Over.cpp" />
+    <ClCompile Include="GAME OVER2.cpp" />
+    <ClCompile Include="GAMEOVER1.cpp" />
+    <ClCompile Include="GameOver2.cpp" />
+    <ClCompile Include="ObjED1.cpp" />
+    <ClCompile Include="ObjED2.cpp" />
+    <ClCompile Include="ObjEnemy2.cpp" />
+    <ClCompile Include="ObjSTG.cpp" />
+    <ClCompile Include="Objteki1.cpp" />
+    <ClCompile Include="SceneSTG.cpp" />
+    <ClCompile Include="CObjBullet.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="Objteki4.cpp">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
+    <ClCompile Include="CObjBullteEnemy.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="SceneSTG4.cpp">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
+    <ClCompile Include="ObjEnemy2.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
-    <ClCompile Include="ObjEnemy4.cpp">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
+    <ClCompile Include="ObjHero.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="Objteki1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="UtilityModule.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ゲームメイン\ObjBackGround.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ゲームメイン\ObjMain.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ゲームメイン\SceneMain.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver\Game Over.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver\GAME OVER2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver\GAMEOVER1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOver\GameOver2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\ObjED1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\ObjED2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\ObjED3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\SceneED1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\SceneED2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="ED\SceneED3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\CObjBullet.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\CObjBullteEnemy.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjEnemy1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjEnemy2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjEnemy3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjEnemy4.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjHero.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG4.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\Objteki1.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\Objteki2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\Objteki3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\Objteki4.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG2.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG3.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG4.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ShootingMain.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\UtilityModule.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="タイトル\ObjTitle.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="タイトル\SceneTitle.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="謎解き\ObjTenkey.cpp">
+      <Filter>ソースファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="謎解き\SceneNazo.cpp">
+      <Filter>ソースファイル</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h" />
+    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjSTG.h" />
+    <ClInclude Include="CObjBullet.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjBullteEnemy.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
     <ClInclude Include="GameL\Audio.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
@@ -177,9 +279,6 @@
     <ClInclude Include="GameL\SetWindow.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
-    <ClInclude Include="ShootingMain.h">
-      <Filter>リソースファイル</Filter>
-    </ClInclude>
     <ClInclude Include="GameL\UserData.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
@@ -189,148 +288,196 @@
     <ClInclude Include="GameL\WinInputs.h">
       <Filter>リソースファイル</Filter>
     </ClInclude>
-    <ClInclude Include="GameHead.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="main.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjBackGround.h">
-      <Filter>ヘッダーファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="Objteki1.h">
-      <Filter>ソースファイル\シューティング\teki1</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneSTG.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjSTG.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="CObjBullteEnemy.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjEnemy2.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="GAME OVER2.h">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClInclude>
-    <ClInclude Include="GameOver.h">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClInclude>
-    <ClInclude Include="GAMEOVER1.h">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClInclude>
-    <ClInclude Include="GameOver2.h">
-      <Filter>ソースファイル\GameOver</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjED1.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjED3.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjED2.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneED1.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneED3.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneED2.h">
-      <Filter>ソースファイル\エンディング</Filter>
-    </ClInclude>
-    <ClInclude Include="UtilityModule.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjHero.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
-    <ClInclude Include="CObjBullet.h">
-      <Filter>ソースファイル\シューティング</Filter>
-    </ClInclude>
     <ClInclude Include="ObjMain.h">
       <Filter>ソースファイル\ゲームメイン</Filter>
     </ClInclude>
-    <ClInclude Include="SceneMain.h">
-      <Filter>ソースファイル\ゲームメイン</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneTitle.h">
-      <Filter>ソースファイル\タイトル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjTitle.h">
-      <Filter>ソースファイル\タイトル</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjTenkey.h">
-      <Filter>ソースファイル\謎解き関係</Filter>
-    </ClInclude>
+    <ClInclude Include="Objteki1.h" />
     <ClInclude Include="SceneNazo.h">
       <Filter>ソースファイル\謎解き関係</Filter>
     </ClInclude>
-    <ClInclude Include="ObjSTG4.h">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
-    </ClInclude>
-    <ClInclude Include="Objteki4.h">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
-    </ClInclude>
-    <ClInclude Include="SceneSTG4.h">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjEnemy4.h">
-      <Filter>ソースファイル\シューティング\teki4</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjEnemy1.h" />
     <ClInclude Include="ObjEnemy2.h" />
-    <ClInclude Include="ObjEnemy3.h" />
-    <ClInclude Include="ObjSTG2.h" />
-    <ClInclude Include="ObjSTG3.h" />
     <ClInclude Include="ObjSTG.h" />
     <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjEnemy1.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEnemy2.h">
+      <Filter>ソースファイル\シューティング\Enemy</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjSTG.h">
+      <Filter>ソースファイル\シューティング\STG</Filter>
+    </ClInclude>
+    <ClInclude Include="CObjBullet.h">
+      <Filter>ソースファイル\シューティング\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG3.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
     <ClInclude Include="Objteki2.h" />
     <ClInclude Include="Objteki3.h" />
+    <ClInclude Include="GAME OVER2.h" />
+    <ClInclude Include="GameOver.h" />
+    <ClInclude Include="GAMEOVER1.h" />
+    <ClInclude Include="GameOver2.h" />
+    <ClInclude Include="ObjED1.h" />
+    <ClInclude Include="ObjED3.h" />
+    <ClInclude Include="ObjED2.h" />
+    <ClInclude Include="ObjEnemy2.h" />
+    <ClInclude Include="Objteki1.h" />
+    <ClInclude Include="ObjSTG.h" />
+    <ClInclude Include="SceneED1.h" />
+    <ClInclude Include="SceneED3.h" />
+    <ClInclude Include="ObjEnemy4.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki3.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki4.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG2.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG3.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG4.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\UtilityModule.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ShootingMain.h">
+      <Filter>ソースファイル\シューティング</Filter>
+    </ClInclude>
+    <ClInclude Include="UtilityModule.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ゲームメイン\ObjBackGround.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ゲームメイン\ObjMain.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ゲームメイン\SceneMain.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver\GAME OVER2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver\GameOver.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver\GAMEOVER1.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOver\GameOver2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\ObjED1.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\ObjED2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\ObjED3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\SceneED1.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\SceneED2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="ED\SceneED3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\CObjBullet.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\CObjBullteEnemy.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjEnemy1.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjEnemy2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjEnemy3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjEnemy4.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjHero.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG4.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki1.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki4.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG2.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG3.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG4.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ShootingMain.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\UtilityModule.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="タイトル\ObjTitle.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="タイトル\SceneTitle.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="謎解き\ObjTenkey.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="謎解き\SceneNazo.h">
+      <Filter>ソースファイル</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <Filter Include="ソースファイル">
-      <UniqueIdentifier>{f3d4e8ef-0a5d-484e-9005-4a2d699c22d6}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ヘッダーファイル">
-      <UniqueIdentifier>{16e9a129-79ff-494a-82f1-7aa272afcd28}</UniqueIdentifier>
-    </Filter>
     <Filter Include="リソースファイル">
       <UniqueIdentifier>{abc39fff-a87f-49da-985e-a59018175b51}</UniqueIdentifier>
     </Filter>
-    <Filter Include="ソースファイル\GameOver">
-      <UniqueIdentifier>{74d457b6-f72d-4368-b766-e6cb8b35ec14}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\ゲームメイン">
-      <UniqueIdentifier>{8f682e77-08d9-4079-8502-be2847915a7b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\シューティング">
-      <UniqueIdentifier>{e0fd43df-e3f5-40a8-8dcf-ee9406f08531}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\エンディング">
-      <UniqueIdentifier>{8903072d-49bd-43f0-9b5e-e232702a2323}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\謎解き関係">
-      <UniqueIdentifier>{d70192f0-d91c-45cc-a2c5-1a7c26c3322d}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\タイトル">
-      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\シューティング\teki1">
-      <UniqueIdentifier>{d46853c2-5bba-474d-a3cb-1443ae3d398b}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\シューティング\タイトル">
-      <UniqueIdentifier>{e9ac1f47-5ae5-41c5-b3b3-4e26569fd365}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\シューティング\teki3">
-      <UniqueIdentifier>{e2d132bd-a514-4144-b055-d7a936a89ea4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="ソースファイル\シューティング\teki4">
-      <UniqueIdentifier>{9494fb15-687a-4768-b570-1626d4d58d01}</UniqueIdentifier>
+    <Filter Include="ソースファイル">
+      <UniqueIdentifier>{cd1d00d4-cfc3-4c70-a240-2646727b1aad}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
