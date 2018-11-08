@@ -110,13 +110,11 @@
     <ClInclude Include="シューティング\ObjHero.h" />
     <ClInclude Include="シューティング\ObjSTG.h" />
     <ClInclude Include="シューティング\ObjSTG2.h" />
-    <ClInclude Include="シューティング\ObjSTG3.h" />
+
     <ClInclude Include="シューティング\ObjSTG4.h" />
     <ClInclude Include="シューティング\Objteki1.h" />
     <ClInclude Include="シューティング\Objteki2.h" />
-    <ClInclude Include="シューティング\Objteki3.h" />
-    <ClInclude Include="シューティング\Objteki4.h" />
-    <ClInclude Include="シューティング\SceneSTG.h" />
+
     <ClInclude Include="シューティング\SceneSTG2.h" />
     <ClInclude Include="シューティング\SceneSTG3.h" />
     <ClInclude Include="シューティング\SceneSTG4.h" />
@@ -314,13 +312,12 @@
     <ClInclude Include="シューティング\ObjHero.h" />
     <ClInclude Include="シューティング\ObjSTG.h" />
     <ClInclude Include="シューティング\ObjSTG2.h" />
-    <ClInclude Include="シューティング\ObjSTG3.h" />
+
     <ClInclude Include="シューティング\ObjSTG4.h" />
     <ClInclude Include="シューティング\Objteki1.h" />
     <ClInclude Include="シューティング\Objteki2.h" />
-    <ClInclude Include="シューティング\Objteki3.h" />
-    <ClInclude Include="シューティング\Objteki4.h" />
-    <ClInclude Include="シューティング\SceneSTG.h" />
+
+
     <ClInclude Include="シューティング\SceneSTG2.h" />
     <ClInclude Include="シューティング\SceneSTG3.h" />
     <ClInclude Include="シューティング\SceneSTG4.h" />
