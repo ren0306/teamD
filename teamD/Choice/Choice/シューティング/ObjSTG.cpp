@@ -1,12 +1,12 @@
 //使用するヘッダー
-#include "../GameL\DrawTexture.h"
-#include "../GameL\WinInputs.h"
-#include "../GameL\DrawFont.h"
-#include "../GameL\SceneManager.h"
+#include "GameL\DrawTexture.h"
+#include "GameL\WinInputs.h"
+#include "GameL\DrawFont.h"
+#include "GameL\SceneManager.h"
 
-#include "../GameHead.h"
+#include "GameHead.h"
 #include "ObjSTG.h"
-#include "../ゲームメイン/SceneMain.h"
+#include "SceneMain.h"
 #include "SceneSTG.h"
 
 //使用するネームスペース

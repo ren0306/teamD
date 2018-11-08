@@ -1,8 +1,8 @@
 //使用するヘッダーファイル
-#include "../GameL\DrawTexture.h"
-#include "../GameL\HitBoxManager.h"
+#include "GameL\DrawTexture.h"
+#include "GameL\HitBoxManager.h"
 
-#include "../GameHead.h"
+#include "GameHead.h"
 #include "ObjEnemy1.h"
 #include "UtilityModule.h"
 

@@ -1,8 +1,8 @@
 //使用するヘッダーファイル
-#include "../GameL\DrawTexture.h"
+#include "GameL\DrawTexture.h"
 
 
-#include "../GameHead.h"
+#include "GameHead.h"
 #include "Objteki2.h"
 #include "UtilityModule.h"
 
