@@ -2,10 +2,6 @@
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
     <ClCompile Include="Objteki1.cpp" />
-    <ClCompile Include="ObjEnemy2.cpp" />
-    <ClCompile Include="ObjSTG.cpp" />
-    <ClCompile Include="Objteki1.cpp" />
-    <ClCompile Include="SceneSTG.cpp" />
     <ClCompile Include="ObjEnemy2.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
@@ -225,24 +221,29 @@
     <ClCompile Include="謎解き\SceneNazo.cpp">
       <Filter>ソースファイル</Filter>
     </ClCompile>
+    <ClCompile Include="シューティング\Objteki1.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG.cpp">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\Objteki2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\SceneSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
+    <ClCompile Include="シューティング\ObjSTG2.cpp">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Objteki1.h" />
-    <ClInclude Include="ObjEnemy2.h">
-      <Filter>ソースファイル\シューティング\Enemy</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjSTG.h">
-      <Filter>ソースファイル\シューティング\STG</Filter>
-    </ClInclude>
     <ClInclude Include="ObjEnemy2.h" />
     <ClInclude Include="Objteki1.h" />
     <ClInclude Include="ObjSTG.h" />
-    <ClInclude Include="CObjBullet.h">
-      <Filter>ソースファイル</Filter>
-    </ClInclude>
-    <ClInclude Include="CObjBullteEnemy.h">
-      <Filter>ソースファイル</Filter>
-    </ClInclude>
     <ClInclude Include="ObjEnemy2.h">
       <Filter>ソースファイル</Filter>
     </ClInclude>
@@ -471,6 +472,24 @@
     <ClInclude Include="謎解き\SceneNazo.h">
       <Filter>ソースファイル</Filter>
     </ClInclude>
+    <ClInclude Include="シューティング\Objteki1.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG.h">
+      <Filter>ソースファイル\シューティング\teki1</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\SceneSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\Objteki2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
+    <ClInclude Include="シューティング\ObjSTG2.h">
+      <Filter>ソースファイル\シューティング\teki2</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="リソースファイル">
@@ -478,6 +497,12 @@
     </Filter>
     <Filter Include="ソースファイル">
       <UniqueIdentifier>{cd1d00d4-cfc3-4c70-a240-2646727b1aad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki1">
+      <UniqueIdentifier>{60d425a7-4ef1-42e6-bcb6-85fa71e93b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソースファイル\シューティング\teki2">
+      <UniqueIdentifier>{7bff4591-2d80-4938-af54-22f1d73df0db}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

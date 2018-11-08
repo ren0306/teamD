@@ -81,7 +81,7 @@ void CObjBackGround::Draw()
 	dst.m_left = 0.0f;
 	dst.m_right = 800.0f;
 	dst.m_bottom = 600.0f;
-	Draw::Draw(0, &src, &dst, d, 0.0f);
+	Draw::Draw(0, &src, &dst, d, 0.0f);*/
 
 	//シューティング
 	float q[4] = { 1.0f,1.0f,01.0f,1.0f };
@@ -94,7 +94,7 @@ void CObjBackGround::Draw()
 	dst.m_left = 0.0f;
 	dst.m_right = 800.0f;
 	dst.m_bottom = 600.0f;
-	Draw::Draw(1, &src, &dst, d, 0.0f);*/
+	Draw::Draw(4, &src, &dst, d, 0.0f);
 
 
 	

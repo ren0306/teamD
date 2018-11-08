@@ -5,7 +5,6 @@
 #include "../GameL\Audio.h"
 #include "../GameHead.h"
 #include "ObjHero.h"
-#include "ObjEnemy2.h"
 #include "UtilityModule.h"
 
 //使用するネームスペース
@@ -186,7 +185,7 @@ void CObjHero::Draw()
 	dst.m_right = 32.0f + m_x;
 	dst.m_bottom = 32.0f + m_y;
 
-	//1番目に登録したグラフィックをsrc・dst・cの情報を元に描画
-	Draw::Draw(1, &src, &dst, ob, 0.0f);
+	//5番目に登録したグラフィックをsrc・dst・cの情報を元に描画
+	Draw::Draw(5, &src, &dst, ob, 0.0f);
 
 }

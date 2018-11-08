@@ -29,31 +29,29 @@ CSceneSTG2::~CSceneSTG2()
 //ゲームタイトル初期化メソッド
 void CSceneSTG2::InitScene()
 {
+	//背景を読み込み0番に登録
+	Draw::LoadImageW(L"ss01.png", 4, TEX_SIZE_512);
+	//敵２を読み込み10番に登録
+	Draw::LoadImageW(L"teki2.png", 10, TEX_SIZE_512);
+	//主人公を読み込み1番に登録
+	Draw::LoadImageW(L"hero.png", 5, TEX_SIZE_512);
 
 	//STGオブジェクト作成
 	CObjSTG* obj = new CObjSTG();
 	Objs::InsertObj(obj, OBJ_STG, 10);
-
-	//外部グラフィックファイルを読み込み0番に登録
-	Draw::LoadImageW(L"ss01.png", 0, TEX_SIZE_512);
-
-	CObjMain* m = new CObjMain();
-	Objs::InsertObj(m, OBJ_STG3, 10);
-
+	//背景
 	CObjBackGround* p = new CObjBackGround();
 	Objs::InsertObj(p, OBJ_BACKGROUND, 0);
-
-	//外部グラフィックファイルを読み込み1番に登録
-	Draw::LoadImageW(L"teki2.png", 10, TEX_SIZE_512);
-
+	//敵
 	CObjteki2* objb = new CObjteki2(200, 10);
 	Objs::InsertObj(objb, OBJ_TEKI2, 50);
-
-	//外部グラフィックファイルを読み込み1番に登録
-	Draw::LoadImageW(L"hero.png", 1, TEX_SIZE_512);
-
+	//主人公
 	CObjHero*ob = new CObjHero();
 	Objs::InsertObj(ob, OBJ_HERO, 150);
+
+
+
+
 }
 
 //ゲームタイトル実行中メソッド
