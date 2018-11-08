@@ -4,6 +4,7 @@
 #include "../GameL\DrawFont.h"
 #include "../GameL\SceneManager.h"
 
+
 #include "../GameHead.h"
 #include "ObjTitle.h"
 #include "../ゲームメイン/SceneMain.h"
@@ -35,15 +36,12 @@ void CObjTitle::Action()
 	if (m_mou_x > 400 && m_mou_x < 620 && m_mou_y>390 && m_mou_y < 430)
 	{
 		//マウスのボタンが押されたらメインに遷移
-		if ( m_mou_l == true)
-		
-			//for (; m_and==0;)
+		if (m_mou_l == true)
+		{
+			m_and -= 0.1;
 			
-				m_and -= 0.1f;
-			
-			//if(m_and==0)
 			Scene::SetScene(new CSceneMain());
-		
+		}
 	}
 
 }
