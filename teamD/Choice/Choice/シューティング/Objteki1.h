@@ -7,6 +7,7 @@ using namespace GameL;
 //オブジェクト：敵１
 class CObjteki1 :public CObj
 {
+
 	public:
 		CObjteki1(float x, float y);//コンストラクタ位置情報をもらう
 		~CObjteki1() {};
